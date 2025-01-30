@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - January 30, 2025
+title: Latest 15 Papers - January 31, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -45,16 +45,29 @@ labels: documentation
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Planning with Vision-Language Models and a Use Case in Robot-Assisted Teaching](http://arxiv.org/abs/2501.17665v1)** | 2025-01-29 |  |
+| **[Exploring Vision Language Models for Multimodal and Multilingual Stance Detection](http://arxiv.org/abs/2501.17654v1)** | 2025-01-29 | <details><summary>Submi...</summary><p>Submitted to the International AAAI Conference on Web and Social Media (ICWSM) 2025</p></details> |
+| **[Efficient Redundancy Reduction for Open-Vocabulary Semantic Segmentation](http://arxiv.org/abs/2501.17642v1)** | 2025-01-29 |  |
+| **[Boosting Weak Positives for Text Based Person Search](http://arxiv.org/abs/2501.17586v1)** | 2025-01-29 |  |
+| **[Beyond-Labels: Advancing Open-Vocabulary Segmentation With Vision-Language Models](http://arxiv.org/abs/2501.16769v2)** | 2025-01-29 |  |
+| **[PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](http://arxiv.org/abs/2501.16411v2)** | 2025-01-29 | <details><summary>ICLR ...</summary><p>ICLR 2025. Project page: https://physbench.github.io/ Dataset: https://huggingface.co/datasets/USC-GVL/PhysBench</p></details> |
+| **[Learning Free Token Reduction for Multi-Modal LLM](http://arxiv.org/abs/2501.17391v1)** | 2025-01-29 |  |
+| **[Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](http://arxiv.org/abs/2501.02189v3)** | 2025-01-29 | 35 pages, 3 figures |
+| **[SelfPrompt: Confidence-Aware Semi-Supervised Tuning for Robust Vision-Language Model Adaptation](http://arxiv.org/abs/2501.14148v2)** | 2025-01-28 |  |
+| **[FlexCap: Describe Anything in Images in Controllable Detail](http://arxiv.org/abs/2403.12026v2)** | 2025-01-28 | <details><summary>Accep...</summary><p>Accepted at NeurIPS 2024</p></details> |
+| **[Probing LLM World Models: Enhancing Guesstimation with Wisdom of Crowds Decoding](http://arxiv.org/abs/2501.17310v1)** | 2025-01-28 |  |
 | **[On AI-Inspired UI-Design](http://arxiv.org/abs/2406.13631v2)** | 2025-01-28 |  |
 | **[Privacy-Preserving Personalized Federated Prompt Learning for Multimodal Large Language Models](http://arxiv.org/abs/2501.13904v2)** | 2025-01-28 | <details><summary>Accep...</summary><p>Accepted to ICLR 2025 main conference track</p></details> |
 | **[Modulating CNN Features with Pre-Trained ViT Representations for Open-Vocabulary Object Detection](http://arxiv.org/abs/2501.16981v1)** | 2025-01-28 |  |
 | **[Image-based Geo-localization for Robotics: Are Black-box Vision-Language Models there yet?](http://arxiv.org/abs/2501.16947v1)** | 2025-01-28 | <details><summary>Submi...</summary><p>Submitted to IROS 2025</p></details> |
-| **[Document Screenshot Retrievers are Vulnerable to Pixel Poisoning Attacks](http://arxiv.org/abs/2501.16902v1)** | 2025-01-28 |  |
-| **[SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model](http://arxiv.org/abs/2501.15830v2)** | 2025-01-28 |  |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Leveraging Multimodal LLM for Inspirational User Interface Search](http://arxiv.org/abs/2501.17799v1)** | 2025-01-29 | <details><summary>In Pr...</summary><p>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '25)</p></details> |
+| **[Beyond Text: Implementing Multimodal Large Language Model-Powered Multi-Agent Systems Using a No-Code Platform](http://arxiv.org/abs/2501.00750v2)** | 2025-01-29 | 22 pages, 27 figures |
+| **[When Video Coding Meets Multimodal Large Language Models: A Unified Paradigm for Video Coding](http://arxiv.org/abs/2408.08093v2)** | 2025-01-29 |  |
+| **[Learning Free Token Reduction for Multi-Modal LLM](http://arxiv.org/abs/2501.17391v1)** | 2025-01-29 |  |
 | **[Mobile Manipulation Instruction Generation from Multiple Images with Automatic Metric Enhancement](http://arxiv.org/abs/2501.17022v1)** | 2025-01-28 | <details><summary>Accep...</summary><p>Accepted for IEEE RA-L 2025</p></details> |
 | **[Privacy-Preserving Personalized Federated Prompt Learning for Multimodal Large Language Models](http://arxiv.org/abs/2501.13904v2)** | 2025-01-28 | <details><summary>Accep...</summary><p>Accepted to ICLR 2025 main conference track</p></details> |
 | **[Exploring the Role of Explicit Temporal Modeling in Multimodal Large Language Models for Video Understanding](http://arxiv.org/abs/2501.16786v1)** | 2025-01-28 |  |
@@ -66,8 +79,4 @@ labels: documentation
 | **[FALCON: Resolving Visual Redundancy and Fragmentation in High-resolution Multimodal Large Language Models via Visual Registers](http://arxiv.org/abs/2501.16297v1)** | 2025-01-27 |  |
 | **[Brain-Adapter: Enhancing Neurological Disorder Analysis with Adapter-Tuning Multimodal Large Language Models](http://arxiv.org/abs/2501.16282v1)** | 2025-01-27 |  |
 | **[Can Multimodal Large Language Models be Guided to Improve Industrial Anomaly Detection?](http://arxiv.org/abs/2501.15795v1)** | 2025-01-27 | 16 pages, 11 figures |
-| **[Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning](http://arxiv.org/abs/2501.15727v1)** | 2025-01-27 |  |
-| **[Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages](http://arxiv.org/abs/2410.16153v3)** | 2025-01-26 | 54 pages, 27 figures |
-| **[Ocean-OCR: Towards General OCR Application via a Vision-Language Model](http://arxiv.org/abs/2501.15558v1)** | 2025-01-26 |  |
-| **[Unveiling the Potential of Multimodal Retrieval Augmented Generation with Planning](http://arxiv.org/abs/2501.15470v1)** | 2025-01-26 |  |
 
