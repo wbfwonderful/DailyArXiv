@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - February 20, 2025
+title: Latest 15 Papers - February 21, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -45,25 +45,28 @@ labels: documentation
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Symmetrical Visual Contrastive Optimization: Aligning Vision-Language Models with Minimal Contrastive Images](http://arxiv.org/abs/2502.13928v1)** | 2025-02-19 | <details><summary>Proje...</summary><p>Project Website: https://s-vco.github.io/</p></details> |
+| **[NavigateDiff: Visual Predictors are Zero-Shot Navigation Assistants](http://arxiv.org/abs/2502.13894v1)** | 2025-02-19 | Accepted to ICRA2025 |
+| **[SPEX: Scaling Feature Interaction Explanations for LLMs](http://arxiv.org/abs/2502.13870v1)** | 2025-02-19 |  |
+| **[Quantifying Memorization and Retriever Performance in Retrieval-Augmented Vision-Language Models](http://arxiv.org/abs/2502.13836v1)** | 2025-02-19 |  |
+| **[ChineseSimpleVQA -- "See the World, Discover Knowledge": A Chinese Factuality Evaluation for Large Vision Language Models](http://arxiv.org/abs/2502.11718v2)** | 2025-02-19 | 24 pages, 21 figures |
+| **[GIMMICK -- Globally Inclusive Multimodal Multitask Cultural Knowledge Benchmarking](http://arxiv.org/abs/2502.13766v1)** | 2025-02-19 |  |
+| **[Generalized Robot 3D Vision-Language Model with Fast Rendering and Pre-Training Vision-Language Alignment](http://arxiv.org/abs/2312.00663v2)** | 2025-02-19 | <details><summary>IEEE ...</summary><p>IEEE Transactions on Pattern Analysis and Machine Intelligence, Manuscript Info: 17 Pages, 13 Figures, and 6 Tables</p></details> |
+| **[VLAS: Vision-Language-Action Model With Speech Instructions For Customized Robot Manipulation](http://arxiv.org/abs/2502.13508v1)** | 2025-02-19 | <details><summary>Accep...</summary><p>Accepted as a conference paper at ICLR 2025</p></details> |
+| **[Transferring Textual Preferences to Vision-Language Understanding through Model Merging](http://arxiv.org/abs/2502.13487v1)** | 2025-02-19 | <details><summary>Prepr...</summary><p>Preprint. Under Review</p></details> |
+| **[Estimating Commonsense Plausibility through Semantic Shifts](http://arxiv.org/abs/2502.13464v1)** | 2025-02-19 |  |
+| **[Mitigating Hallucinations in Large Vision-Language Models via Summary-Guided Decoding](http://arxiv.org/abs/2410.13321v3)** | 2025-02-19 | <details><summary>NAACL...</summary><p>NAACL 2025 (Findings); Renamed SGD to SumGD in Summary-Guided Decoding to prevent confusion with Stochastic Gradient Descent</p></details> |
+| **[MoVer: Motion Verification for Motion Graphics Animations](http://arxiv.org/abs/2502.13372v1)** | 2025-02-19 |  |
+| **[VilBias: A Study of Bias Detection through Linguistic and Visual Cues , presenting Annotation Strategies, Evaluation, and Key Challenges](http://arxiv.org/abs/2412.17052v3)** | 2025-02-18 | Under review |
 | **[Re-Align: Aligning Vision Language Models via Retrieval-Augmented Direct Preference Optimization](http://arxiv.org/abs/2502.13146v1)** | 2025-02-18 | 15 pages |
 | **[Understanding and Rectifying Safety Perception Distortion in VLMs](http://arxiv.org/abs/2502.13095v1)** | 2025-02-18 |  |
-| **[VLMaterial: Procedural Material Generation with Large Vision-Language Models](http://arxiv.org/abs/2501.18623v2)** | 2025-02-18 | ICLR 2025 Spotlight |
-| **[Open-Ended and Knowledge-Intensive Video Question Answering](http://arxiv.org/abs/2502.11747v2)** | 2025-02-18 |  |
-| **[Bongard in Wonderland: Visual Puzzles that Still Make AI Go Mad?](http://arxiv.org/abs/2410.19546v2)** | 2025-02-18 |  |
-| **[Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation](http://arxiv.org/abs/2410.11989v5)** | 2025-02-18 | <details><summary>Accep...</summary><p>Accepted by IEEE Robotics and Automation Letters (RA-L), 2025</p></details> |
-| **[MVL-SIB: A Massively Multilingual Vision-Language Benchmark for Cross-Modal Topical Matching](http://arxiv.org/abs/2502.12852v1)** | 2025-02-18 |  |
-| **[AdvLoRA: Adversarial Low-Rank Adaptation of Vision-Language Models](http://arxiv.org/abs/2404.13425v2)** | 2025-02-18 |  |
-| **[SmartAgent: Chain-of-User-Thought for Embodied Personalized Agent in Cyber World](http://arxiv.org/abs/2412.07472v3)** | 2025-02-18 |  |
-| **[VividMed: Vision Language Model with Versatile Visual Grounding for Medicine](http://arxiv.org/abs/2410.12694v2)** | 2025-02-18 |  |
-| **[CutPaste&Find: Efficient Multimodal Hallucination Detector with Visual-aid Knowledge Base](http://arxiv.org/abs/2502.12591v1)** | 2025-02-18 |  |
-| **[SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models](http://arxiv.org/abs/2407.20756v4)** | 2025-02-18 |  |
-| **[Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning](http://arxiv.org/abs/2412.13540v2)** | 2025-02-18 |  |
-| **[Probing Visual Language Priors in VLMs](http://arxiv.org/abs/2501.00569v3)** | 2025-02-18 | <details><summary>https...</summary><p>https://huggingface.co/ViLP</p></details> |
-| **[What Makes a Maze Look Like a Maze?](http://arxiv.org/abs/2409.08202v2)** | 2025-02-17 | ICLR 2025 |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[ArtMentor: AI-Assisted Evaluation of Artworks to Explore Multimodal Large Language Models Capabilities](http://arxiv.org/abs/2502.13832v1)** | 2025-02-19 | <details><summary>18 pa...</summary><p>18 pages, 12 figures. Accepted by CHI 2025</p></details> |
+| **[FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning](http://arxiv.org/abs/2412.12567v2)** | 2025-02-19 |  |
+| **[Contrastive Localized Language-Image Pre-Training](http://arxiv.org/abs/2410.02746v2)** | 2025-02-19 | Preprint |
 | **[Multimodal Mamba: Decoder-only Multimodal State Space Model via Quadratic to Linear Distillation](http://arxiv.org/abs/2502.13145v1)** | 2025-02-18 | <details><summary>Code ...</summary><p>Code and model are available at https://github.com/hustvl/mmMamba</p></details> |
 | **[SimpleVQA: Multimodal Factuality Evaluation for Multimodal Large Language Models](http://arxiv.org/abs/2502.13059v1)** | 2025-02-18 |  |
 | **[Mitigating Modality Prior-Induced Hallucinations in Multimodal Large Language Models via Deciphering Attention Causality](http://arxiv.org/abs/2410.04780v2)** | 2025-02-18 | <details><summary>Accep...</summary><p>Accepted by The Thirteenth International Conference on Learning Representations (ICLR 2025)</p></details> |
@@ -76,7 +79,4 @@ labels: documentation
 | **[SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models](http://arxiv.org/abs/2407.20756v4)** | 2025-02-18 |  |
 | **[SAFEERASER: Enhancing Safety in Multimodal Large Language Models through Multimodal Machine Unlearning](http://arxiv.org/abs/2502.12520v1)** | 2025-02-18 |  |
 | **[Migician: Revealing the Magic of Free-Form Multi-Image Grounding in Multimodal Large Language Models](http://arxiv.org/abs/2501.05767v3)** | 2025-02-18 | 21 pages, 8 figures |
-| **[A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges](http://arxiv.org/abs/2412.11936v2)** | 2025-02-18 |  |
-| **[HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation](http://arxiv.org/abs/2502.12148v1)** | 2025-02-17 | <details><summary>Code:...</summary><p>Code: https://github.com/Gen-Verse/HermesFlow</p></details> |
-| **[PRISM: Self-Pruning Intrinsic Selection Method for Training-Free Multimodal Data Selection](http://arxiv.org/abs/2502.12119v1)** | 2025-02-17 |  |
 
