@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - April 21, 2025
+title: Latest 15 Papers - April 22, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -45,25 +45,28 @@ labels: documentation
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents](http://arxiv.org/abs/2504.10458v3)** | 2025-04-18 |  |
+| **[VCR: A Task for Pixel-Level Complex Reasoning in Vision Language Models via Restoring Occluded Text](http://arxiv.org/abs/2406.06462v4)** | 2025-04-18 | <details><summary>Accep...</summary><p>Accepted at ICLR 2025. Original paper name: VCR: Visual Caption Restoration</p></details> |
+| **[Analysing the Robustness of Vision-Language-Models to Common Corruptions](http://arxiv.org/abs/2504.13690v1)** | 2025-04-18 | <details><summary>arXiv...</summary><p>arXiv admin note: text overlap with arXiv:2304.10592, arXiv:2301.12597 by other authors</p></details> |
+| **[EyecareGPT: Boosting Comprehensive Ophthalmology Understanding with Tailored Dataset, Benchmark and Model](http://arxiv.org/abs/2504.13650v1)** | 2025-04-18 |  |
+| **[Training-free Task-oriented Grasp Generation](http://arxiv.org/abs/2502.04873v2)** | 2025-04-18 |  |
+| **[GaGA: Towards Interactive Global Geolocation Assistant](http://arxiv.org/abs/2412.08907v2)** | 2025-04-18 |  |
+| **[PathVLM-R1: A Reinforcement Learning-Driven Reasoning Model for Pathology Visual-Language Tasks](http://arxiv.org/abs/2504.09258v2)** | 2025-04-18 |  |
+| **[Chain-of-Thought Textual Reasoning for Few-shot Temporal Action Localization](http://arxiv.org/abs/2504.13460v1)** | 2025-04-18 |  |
+| **[Towards a Multi-Agent Vision-Language System for Zero-Shot Novel Hazardous Object Detection for Autonomous Driving Safety](http://arxiv.org/abs/2504.13399v1)** | 2025-04-18 |  |
+| **[VLLFL: A Vision-Language Model Based Lightweight Federated Learning Framework for Smart Agriculture](http://arxiv.org/abs/2504.13365v1)** | 2025-04-17 |  |
+| **[Chain-of-Modality: Learning Manipulation Programs from Multimodal Human Videos with Vision-Language-Models](http://arxiv.org/abs/2504.13351v1)** | 2025-04-17 | ICRA 2025 |
 | **[PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](http://arxiv.org/abs/2504.13180v1)** | 2025-04-17 | Technical report |
 | **[Do Vision-Language Models Represent Space and How? Evaluating Spatial Frame of Reference Under Ambiguities](http://arxiv.org/abs/2410.17385v2)** | 2025-04-17 | <details><summary>Accep...</summary><p>Accepted to ICLR 2025 (Oral) | Project page: https://spatial-comfort.github.io/</p></details> |
 | **[Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling](http://arxiv.org/abs/2504.13169v1)** | 2025-04-17 | <details><summary>Prepr...</summary><p>Preprint. Project Page: https://reverse-vlm.github.io</p></details> |
 | **[Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training](http://arxiv.org/abs/2504.13123v1)** | 2025-04-17 |  |
-| **[Probing and Inducing Combinational Creativity in Vision-Language Models](http://arxiv.org/abs/2504.13120v1)** | 2025-04-17 | <details><summary>Proje...</summary><p>Project page: https://ppyyqq.github.io/aicc/ The first two authors contribute equally</p></details> |
-| **[Object-Driven Narrative in AR: A Scenario-Metaphor Framework with VLM Integration](http://arxiv.org/abs/2504.13119v1)** | 2025-04-17 |  |
-| **[Early Accessibility: Automating Alt-Text Generation for UI Icons During App Development](http://arxiv.org/abs/2504.13069v1)** | 2025-04-17 |  |
-| **[NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](http://arxiv.org/abs/2504.13055v1)** | 2025-04-17 | Technical Report |
-| **[CameraBench: Benchmarking Visual Reasoning in MLLMs via Photography](http://arxiv.org/abs/2504.10090v2)** | 2025-04-17 |  |
-| **[Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models](http://arxiv.org/abs/2504.07521v2)** | 2025-04-17 | <details><summary>Accep...</summary><p>Accepted at CVPR Workshop NEXD 2025. 21 pages, Project: https://github.com/Lum1104/EIBench</p></details> |
-| **[Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions](http://arxiv.org/abs/2504.11967v2)** | 2025-04-17 | <details><summary>Accep...</summary><p>Accepted at CVPR Workshop Anti-UAV 2025. 15 pages</p></details> |
-| **[UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](http://arxiv.org/abs/2504.11257v3)** | 2025-04-17 |  |
-| **[ViTOC: Vision Transformer and Object-aware Captioner](http://arxiv.org/abs/2411.07265v4)** | 2025-04-17 | <details><summary>The c...</summary><p>The core idea is too close to what has been published in other journals</p></details> |
-| **[Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning](http://arxiv.org/abs/2504.12680v1)** | 2025-04-17 | 12 pages, 5 figures |
-| **[PATFinger: Prompt-Adapted Transferable Fingerprinting against Unauthorized Multimodal Dataset Usage](http://arxiv.org/abs/2504.11509v2)** | 2025-04-17 |  |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[The Mirage of Performance Gains: Why Contrastive Decoding Fails to Address Multimodal Hallucination](http://arxiv.org/abs/2504.10020v2)** | 2025-04-18 |  |
+| **[Early Timestep Zero-Shot Candidate Selection for Instruction-Guided Image Editing](http://arxiv.org/abs/2504.13490v1)** | 2025-04-18 |  |
+| **[ProteinGPT: Multimodal LLM for Protein Property Prediction and Structure Understanding](http://arxiv.org/abs/2408.11363v2)** | 2025-04-17 | <details><summary>Spotl...</summary><p>Spotlight, Machine Learning for Genomics Explorations @ ICLR 2025</p></details> |
 | **[Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training](http://arxiv.org/abs/2504.13123v1)** | 2025-04-17 |  |
 | **[ChatEXAONEPath: An Expert-level Multimodal Large Language Model for Histopathology Using Whole Slide Images](http://arxiv.org/abs/2504.13023v1)** | 2025-04-17 |  |
 | **[CameraBench: Benchmarking Visual Reasoning in MLLMs via Photography](http://arxiv.org/abs/2504.10090v2)** | 2025-04-17 |  |
@@ -76,7 +79,4 @@ labels: documentation
 | **[GeoSense: Evaluating Identification and Application of Geometric Principles in Multimodal Reasoning](http://arxiv.org/abs/2504.12597v1)** | 2025-04-17 | 10 pages, 8 figures |
 | **[Multimodal LLM Augmented Reasoning for Interpretable Visual Perception Analysis](http://arxiv.org/abs/2504.12511v1)** | 2025-04-16 |  |
 | **[Instruction-augmented Multimodal Alignment for Image-Text and Element Matching](http://arxiv.org/abs/2504.12018v1)** | 2025-04-16 | <details><summary>Accep...</summary><p>Accepted to CVPR 2025 Workshop</p></details> |
-| **[AnomalyR1: A GRPO-based End-to-end MLLM for Industrial Anomaly Detection](http://arxiv.org/abs/2504.11914v1)** | 2025-04-16 |  |
-| **[UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](http://arxiv.org/abs/2503.21620v3)** | 2025-04-16 |  |
-| **[MomentSeeker: A Comprehensive Benchmark and A Strong Baseline For Moment Retrieval Within Long Videos](http://arxiv.org/abs/2502.12558v3)** | 2025-04-16 |  |
 
