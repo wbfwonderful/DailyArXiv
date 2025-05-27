@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - May 27, 2025
+title: Latest 15 Papers - May 28, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -7,6 +7,9 @@ labels: documentation
 ## Video Anomaly Detection
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Vad-R1: Towards Video Anomaly Reasoning via Perception-to-Cognition Chain-of-Thought](http://arxiv.org/abs/2505.19877v1)** | 2025-05-26 | 9 pages, 4 figures |
+| **[Rethinking Metrics and Benchmarks of Video Anomaly Detection](http://arxiv.org/abs/2505.19022v1)** | 2025-05-25 |  |
+| **[MissionGNN: Hierarchical Multimodal GNN-based Weakly Supervised Video Anomaly Recognition with Mission-Specific Knowledge Graph Generation](http://arxiv.org/abs/2406.18815v3)** | 2025-05-23 | <details><summary>Accep...</summary><p>Accepted to WACV 2025</p></details> |
 | **[Flashback: Memory-Driven Zero-shot, Real-time Video Anomaly Detection](http://arxiv.org/abs/2505.15205v2)** | 2025-05-23 | 12 pages, 5 figures |
 | **[Just Dance with $π$! A Poly-modal Inductor for Weakly-supervised Video Anomaly Detection](http://arxiv.org/abs/2505.13123v1)** | 2025-05-19 |  |
 | **[Uncertainty-Weighted Image-Event Multimodal Fusion for Video Anomaly Detection](http://arxiv.org/abs/2505.02393v2)** | 2025-05-08 |  |
@@ -19,13 +22,16 @@ labels: documentation
 | **[From Explicit Rules to Implicit Reasoning in Weakly Supervised Video Anomaly Detection](http://arxiv.org/abs/2410.21991v6)** | 2025-04-06 | <details><summary>This ...</summary><p>This manuscript has been submitted to IEEE Transactions on Circuits and Systems for Video Technology and is under consideration for publication, with potential copyright transfer in the future</p></details> |
 | **[Networking Systems for Video Anomaly Detection: A Tutorial and Survey](http://arxiv.org/abs/2405.10347v4)** | 2025-04-03 | <details><summary>Accep...</summary><p>Accepted to ACM Computing Surveys. For more information and supplementary material, please visit https://github.com/fdjingliu/NSVAD</p></details> |
 | **[VERA: Explainable Video Anomaly Detection via Verbalized Learning of Vision-Language Models](http://arxiv.org/abs/2412.01095v3)** | 2025-03-31 | <details><summary>Accep...</summary><p>Accepted in CVPR 2025</p></details> |
-| **[AssistPDA: An Online Video Surveillance Assistant for Video Anomaly Prediction, Detection, and Analysis](http://arxiv.org/abs/2503.21904v1)** | 2025-03-27 | 13 pages |
-| **[VADMamba: Exploring State Space Models for Fast Video Anomaly Detection](http://arxiv.org/abs/2503.21169v1)** | 2025-03-27 | <details><summary>Accpe...</summary><p>Accpeted by ICME 2025</p></details> |
-| **[Frequency-Guided Diffusion Model with Perturbation Training for Skeleton-Based Video Anomaly Detection](http://arxiv.org/abs/2412.03044v2)** | 2025-03-27 |  |
 
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[TUNA: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](http://arxiv.org/abs/2505.20124v1)** | 2025-05-26 | <details><summary>Accep...</summary><p>Accepted to CVPR 2025 Main. Project page: https://friedrichor.github.io/projects/TUNA</p></details> |
+| **[AdaTP: Attention-Debiased Token Pruning for Video Large Language Models](http://arxiv.org/abs/2505.20100v1)** | 2025-05-26 |  |
+| **[WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal LLMs](http://arxiv.org/abs/2502.04326v2)** | 2025-05-26 |  |
+| **[Two Causally Related Needles in a Video Haystack](http://arxiv.org/abs/2505.19853v1)** | 2025-05-26 |  |
+| **[FastVID: Dynamic Density Pruning for Fast Video Large Language Models](http://arxiv.org/abs/2503.11187v2)** | 2025-05-26 |  |
+| **[Sparse-to-Dense: A Free Lunch for Lossless Acceleration of Video Understanding in LLMs](http://arxiv.org/abs/2505.19155v1)** | 2025-05-25 |  |
 | **[Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding](http://arxiv.org/abs/2505.18079v1)** | 2025-05-23 | Under review |
 | **[Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](http://arxiv.org/abs/2505.16836v1)** | 2025-05-22 | 28 pages, 27 figures |
 | **[Four Eyes Are Better Than Two: Harnessing the Collaborative Potential of Large Models via Differentiated Thinking and Complementary Ensembles](http://arxiv.org/abs/2505.16784v1)** | 2025-05-22 |  |
@@ -35,48 +41,42 @@ labels: documentation
 | **[ViQAgent: Zero-Shot Video Question Answering via Agent with Open-Vocabulary Grounding Validation](http://arxiv.org/abs/2505.15928v1)** | 2025-05-21 |  |
 | **[Clapper: Compact Learning and Video Representation in VLMs](http://arxiv.org/abs/2505.15529v1)** | 2025-05-21 |  |
 | **[ViaRL: Adaptive Temporal Grounding via Visual Iterated Amplification Reinforcement Learning](http://arxiv.org/abs/2505.15447v1)** | 2025-05-21 |  |
-| **[SpaceR: Reinforcing MLLMs in Video Spatial Reasoning](http://arxiv.org/abs/2504.01805v2)** | 2025-05-21 |  |
-| **[LiveVLM: Efficient Online Video Understanding via Streaming-Oriented KV Cache and Retrieval](http://arxiv.org/abs/2505.15269v1)** | 2025-05-21 |  |
-| **[Leveraging Foundation Models for Multimodal Graph-Based Action Recognition](http://arxiv.org/abs/2505.15192v1)** | 2025-05-21 |  |
-| **[VRoPE: Rotary Position Embedding for Video Large Language Models](http://arxiv.org/abs/2502.11664v2)** | 2025-05-21 | 13 pages |
-| **[VideoEval-Pro: Robust and Realistic Long Video Understanding Evaluation](http://arxiv.org/abs/2505.14640v1)** | 2025-05-20 | <details><summary>Datas...</summary><p>Dataset: https://huggingface.co/datasets/TIGER-Lab/VideoEval-Pro, Project Webpage: https://tiger-ai-lab.github.io/VideoEval-Pro</p></details> |
-| **[Video Compression Commander: Plug-and-Play Inference Acceleration for Video Large Language Models](http://arxiv.org/abs/2505.14454v1)** | 2025-05-20 | <details><summary>Our c...</summary><p>Our code is available at https://github.com/xuyang-liu16/VidCom2</p></details> |
 
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[VideoGameBench: Can Vision-Language Models complete popular video games?](http://arxiv.org/abs/2505.18134v1)** | 2025-05-23 | <details><summary>9 pag...</summary><p>9 pages, 33 pages including supplementary</p></details> |
-| **[One RL to See Them All: Visual Triple Unified Reinforcement Learning](http://arxiv.org/abs/2505.18129v1)** | 2025-05-23 | Technical Report |
-| **[MMXU: A Multi-Modal and Multi-X-ray Understanding Dataset for Disease Progression](http://arxiv.org/abs/2502.11651v2)** | 2025-05-23 |  |
-| **[CXReasonBench: A Benchmark for Evaluating Structured Diagnostic Reasoning in Chest X-rays](http://arxiv.org/abs/2505.18087v1)** | 2025-05-23 |  |
-| **[Think or Not? Selective Reasoning via Reinforcement Learning for Vision-Language Models](http://arxiv.org/abs/2505.16854v2)** | 2025-05-23 | <details><summary>updat...</summary><p>update more examples in appendix</p></details> |
-| **[FDBPL: Faster Distillation-Based Prompt Learning for Region-Aware Vision-Language Models Adaptation](http://arxiv.org/abs/2505.18053v1)** | 2025-05-23 |  |
-| **[Clip4Retrofit: Enabling Real-Time Image Labeling on Edge Devices via Cross-Architecture CLIP Distillation](http://arxiv.org/abs/2505.18039v1)** | 2025-05-23 |  |
-| **[Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling](http://arxiv.org/abs/2505.17982v1)** | 2025-05-23 |  |
-| **[On the Robustness of Medical Vision-Language Models: Are they Truly Generalizable?](http://arxiv.org/abs/2505.15425v2)** | 2025-05-23 | <details><summary>Datas...</summary><p>Dataset and Code is available at https://github.com/BioMedIA-MBZUAI/RobustMedCLIP Accepted at: Medical Image Understanding and Analysis (MIUA) 2025</p></details> |
-| **[VLM Models and Automated Grading of Atopic Dermatitis](http://arxiv.org/abs/2505.17835v1)** | 2025-05-23 | 10 pages |
-| **[Seeing It or Not? Interpretable Vision-aware Latent Steering to Mitigate Object Hallucinations](http://arxiv.org/abs/2505.17812v1)** | 2025-05-23 |  |
-| **[U2-BENCH: Benchmarking Large Vision-Language Models on Ultrasound Understanding](http://arxiv.org/abs/2505.17779v1)** | 2025-05-23 |  |
-| **[SafeMVDrive: Multi-view Safety-Critical Driving Video Synthesis in the Real World Domain](http://arxiv.org/abs/2505.17727v1)** | 2025-05-23 |  |
-| **[Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using Local Inference via DeepSeek](http://arxiv.org/abs/2505.17702v1)** | 2025-05-23 |  |
-| **[MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention](http://arxiv.org/abs/2504.16083v2)** | 2025-05-23 | <details><summary>Accep...</summary><p>Accepted at ICML 2025</p></details> |
+| **[Seeing is Believing, but How Much? A Comprehensive Analysis of Verbalized Calibration in Vision-Language Models](http://arxiv.org/abs/2505.20236v1)** | 2025-05-26 |  |
+| **[Graph-to-Vision: Multi-graph Understanding and Reasoning using Vision-Language Models](http://arxiv.org/abs/2503.21435v2)** | 2025-05-26 |  |
+| **[Agentic 3D Scene Generation with Spatially Contextualized VLMs](http://arxiv.org/abs/2505.20129v1)** | 2025-05-26 |  |
+| **[MEBench: A Novel Benchmark for Understanding Mutual Exclusivity Bias in Vision-Language Models](http://arxiv.org/abs/2505.20122v1)** | 2025-05-26 |  |
+| **[NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](http://arxiv.org/abs/2504.13055v2)** | 2025-05-26 | Technical Report |
+| **[Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting](http://arxiv.org/abs/2502.04395v2)** | 2025-05-26 | 20 pages |
+| **[EmoNet-Face: An Expert-Annotated Benchmark for Synthetic Emotion Recognition](http://arxiv.org/abs/2505.20033v1)** | 2025-05-26 |  |
+| **[ViTaPEs: Visuotactile Position Encodings for Cross-Modal Alignment in Multimodal Transformers](http://arxiv.org/abs/2505.20032v1)** | 2025-05-26 |  |
+| **[Decomposing Complex Visual Comprehension into Atomic Visual Skills for Vision Language Models](http://arxiv.org/abs/2505.20021v1)** | 2025-05-26 | 69 pages, 16 figures |
+| **[V-RoAst: Visual Road Assessment. Can VLM be a Road Safety Assessor Using the iRAP Standard?](http://arxiv.org/abs/2408.10872v3)** | 2025-05-26 |  |
+| **[DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](http://arxiv.org/abs/2505.14362v2)** | 2025-05-26 | <details><summary>Ziwei...</summary><p>Ziwei, Michael, Jack, and Chenxiao are equal-contribution. The list order is random</p></details> |
+| **[Can Visual Encoder Learn to See Arrows?](http://arxiv.org/abs/2505.19944v1)** | 2025-05-26 | <details><summary>This ...</summary><p>This work has been accepted for poster presentation at the Second Workshop on Visual Concepts in CVPR 2025</p></details> |
+| **[OmniSVG: A Unified Scalable Vector Graphics Generation Model](http://arxiv.org/abs/2504.06263v2)** | 2025-05-26 | <details><summary>18 pa...</summary><p>18 pages; Project Page: https://omnisvg.github.io/</p></details> |
+| **[Attention! You Vision Language Model Could Be Maliciously Manipulated](http://arxiv.org/abs/2505.19911v1)** | 2025-05-26 |  |
+| **[Underwater Diffusion Attention Network with Contrastive Language-Image Joint Learning for Underwater Image Enhancement](http://arxiv.org/abs/2505.19895v1)** | 2025-05-26 |  |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[Exploring Implicit Visual Misunderstandings in Multimodal Large Language Models through Attention Analysis](http://arxiv.org/abs/2505.10541v2)** | 2025-05-23 |  |
-| **[T2I-Eval-R1: Reinforcement Learning-Driven Reasoning for Interpretable Text-to-Image Evaluation](http://arxiv.org/abs/2505.17897v1)** | 2025-05-23 |  |
-| **[Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities](http://arxiv.org/abs/2505.17862v1)** | 2025-05-23 |  |
-| **[R-Genie: Reasoning-Guided Generative Image Editing](http://arxiv.org/abs/2505.17768v1)** | 2025-05-23 | <details><summary>https...</summary><p>https://dongzhang89.github.io/RGenie.github.io/</p></details> |
-| **[Slot-MLLM: Object-Centric Visual Tokenization for Multimodal LLM](http://arxiv.org/abs/2505.17726v1)** | 2025-05-23 |  |
-| **[HoloLLM: Multisensory Foundation Model for Language-Grounded Human Sensing and Reasoning](http://arxiv.org/abs/2505.17645v1)** | 2025-05-23 | <details><summary>18 pa...</summary><p>18 pages, 13 figures, 6 tables</p></details> |
-| **[URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics](http://arxiv.org/abs/2501.04686v5)** | 2025-05-23 | <details><summary>Updat...</summary><p>Update version. Project url: https://ursa-math.github.io</p></details> |
-| **[UICopilot: Automating UI Synthesis via Hierarchical Code Generation from Webpage Designs](http://arxiv.org/abs/2505.09904v2)** | 2025-05-23 | WWW' 2025 |
-| **[Co-Reinforcement Learning for Unified Multimodal Understanding and Generation](http://arxiv.org/abs/2505.17534v1)** | 2025-05-23 |  |
-| **[Correspondence of high-dimensional emotion structures elicited by video clips between humans and Multimodal LLMs](http://arxiv.org/abs/2505.12746v2)** | 2025-05-23 | 25 pages, 7 figures |
-| **[The Coherence Trap: When MLLM-Crafted Narratives Exploit Manipulated Visual Contexts](http://arxiv.org/abs/2505.17476v1)** | 2025-05-23 |  |
-| **[FinRAGBench-V: A Benchmark for Multimodal RAG with Visual Citation in the Financial Domain](http://arxiv.org/abs/2505.17471v1)** | 2025-05-23 |  |
-| **[Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents](http://arxiv.org/abs/2505.14418v2)** | 2025-05-23 | <details><summary>25 pa...</summary><p>25 pages, 10 figures, 12 Tables</p></details> |
-| **[FullFront: Benchmarking MLLMs Across the Full Front-End Engineering Workflow](http://arxiv.org/abs/2505.17399v1)** | 2025-05-23 |  |
-| **[Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts](http://arxiv.org/abs/2505.17374v1)** | 2025-05-23 | <details><summary>This ...</summary><p>This paper has been accepted to IEEE PacificVis 2025</p></details> |
+| **[DreamPRM: Domain-Reweighted Process Reward Model for Multimodal Reasoning](http://arxiv.org/abs/2505.20241v1)** | 2025-05-26 |  |
+| **[Visual Abstract Thinking Empowers Multimodal Reasoning](http://arxiv.org/abs/2505.20164v1)** | 2025-05-26 |  |
+| **[STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](http://arxiv.org/abs/2505.15804v2)** | 2025-05-26 |  |
+| **[MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents](http://arxiv.org/abs/2505.20148v1)** | 2025-05-26 |  |
+| **[FUDOKI: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities](http://arxiv.org/abs/2505.20147v1)** | 2025-05-26 | 37 pages, 12 figures |
+| **[Multimodal LLM-Guided Semantic Correction in Text-to-Image Diffusion](http://arxiv.org/abs/2505.20053v1)** | 2025-05-26 |  |
+| **[ReasonPlan: Unified Scene Prediction and Decision Reasoning for Closed-loop Autonomous Driving](http://arxiv.org/abs/2505.20024v1)** | 2025-05-26 | <details><summary>18 pa...</summary><p>18 pages; 9 figures; https://github.com/Liuxueyi/ReasonPlan</p></details> |
+| **[Dynamic-I2V: Exploring Image-to-Video Generaion Models via Multimodal LLM](http://arxiv.org/abs/2505.19901v1)** | 2025-05-26 |  |
+| **[Unifying Multimodal Large Language Model Capabilities and Modalities via Model Merging](http://arxiv.org/abs/2505.19892v1)** | 2025-05-26 |  |
+| **[Vad-R1: Towards Video Anomaly Reasoning via Perception-to-Cognition Chain-of-Thought](http://arxiv.org/abs/2505.19877v1)** | 2025-05-26 | 9 pages, 4 figures |
+| **[What Makes a Scene ? Scene Graph-based Evaluation and Feedback for Controllable Generation](http://arxiv.org/abs/2411.15435v2)** | 2025-05-26 |  |
+| **[FullFront: Benchmarking MLLMs Across the Full Front-End Engineering Workflow](http://arxiv.org/abs/2505.17399v2)** | 2025-05-26 |  |
+| **[Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models](http://arxiv.org/abs/2501.13772v2)** | 2025-05-26 |  |
+| **[ImageRAG: Enhancing Ultra High Resolution Remote Sensing Imagery Analysis with ImageRAG](http://arxiv.org/abs/2411.07688v4)** | 2025-05-26 | <details><summary>Accep...</summary><p>Accepted by IEEE Geoscience and Remote Sensing Magazine</p></details> |
+| **[MLLM-Guided VLM Fine-Tuning with Joint Inference for Zero-Shot Composed Image Retrieval](http://arxiv.org/abs/2505.19707v1)** | 2025-05-26 |  |
 
