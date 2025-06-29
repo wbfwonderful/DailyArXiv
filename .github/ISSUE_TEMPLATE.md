@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - June 27, 2025
+title: Latest 15 Papers - June 30, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -26,6 +26,9 @@ labels: documentation
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Task-Aware KV Compression For Cost-Effective Long Video Understanding](http://arxiv.org/abs/2506.21184v1)** | 2025-06-26 | <details><summary>14 pa...</summary><p>14 pages, 3 figures, 6 tables</p></details> |
+| **[IPFormer-VideoLLM: Enhancing Multi-modal Video Understanding for Multi-shot Scenes](http://arxiv.org/abs/2506.21116v1)** | 2025-06-26 |  |
+| **[HERMES: temporal-coHERent long-forM understanding with Episodes and Semantics](http://arxiv.org/abs/2408.17443v4)** | 2025-06-26 | <details><summary>Accep...</summary><p>Accepted for ICCV 2025. Project page: https://joslefaure.github.io/assets/html/hermes.html</p></details> |
 | **[PEVLM: Parallel Encoding for Vision-Language Models](http://arxiv.org/abs/2506.19651v1)** | 2025-06-24 |  |
 | **[Video-XL-2: Towards Very Long-Video Understanding Through Task-Aware KV Sparsification](http://arxiv.org/abs/2506.19225v1)** | 2025-06-24 | <details><summary>12 pa...</summary><p>12 pages, 5 Figure, 3 Table</p></details> |
 | **[Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](http://arxiv.org/abs/2506.18883v1)** | 2025-06-23 |  |
@@ -38,45 +41,42 @@ labels: documentation
 | **[video-SALMONN 2: Captioning-Enhanced Audio-Visual Large Language Models](http://arxiv.org/abs/2506.15220v1)** | 2025-06-18 |  |
 | **[AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](http://arxiv.org/abs/2506.13589v2)** | 2025-06-18 |  |
 | **[InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding](http://arxiv.org/abs/2506.15745v1)** | 2025-06-18 |  |
-| **[EVA02-AT: Egocentric Video-Language Understanding with Spatial-Temporal Rotary Positional Embeddings and Symmetric Optimization](http://arxiv.org/abs/2506.14356v1)** | 2025-06-17 |  |
-| **[MambaMia: A State-Space-Model-Based Compression for Efficient Video Understanding in Large Multimodal Models](http://arxiv.org/abs/2506.13564v1)** | 2025-06-16 | 17 pages, 5 figures |
-| **[SurgBench: A Unified Large-Scale Benchmark for Surgical Video Analysis](http://arxiv.org/abs/2506.07603v2)** | 2025-06-16 |  |
 
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[Shape2Animal: Creative Animal Generation from Natural Silhouettes](http://arxiv.org/abs/2506.20616v1)** | 2025-06-25 |  |
-| **[HRIBench: Benchmarking Vision-Language Models for Real-Time Human Perception in Human-Robot Interaction](http://arxiv.org/abs/2506.20566v1)** | 2025-06-25 | <details><summary>Accep...</summary><p>Accepted to the 19th International Symposium on Experimental Robotics (ISER 2025)</p></details> |
-| **[Med-Art: Diffusion Transformer for 2D Medical Text-to-Image Generation](http://arxiv.org/abs/2506.20449v1)** | 2025-06-25 | <details><summary>The p...</summary><p>The project is available at \url{https://medart-ai.github.io}</p></details> |
-| **[CARMA: Context-Aware Situational Grounding of Human-Robot Group Interactions by Combining Vision-Language Models with Object and Action Recognition](http://arxiv.org/abs/2506.20373v1)** | 2025-06-25 |  |
-| **[Mobile-R1: Towards Interactive Reinforcement Learning for VLM-Based Mobile Agent via Task-Level Rewards](http://arxiv.org/abs/2506.20332v1)** | 2025-06-25 | 14 pages, 12 figures |
-| **[LLaVA-CMoE: Towards Continual Mixture of Experts for Large Vision-Language Models](http://arxiv.org/abs/2503.21227v3)** | 2025-06-25 | Preprint |
-| **[TIIF-Bench: How Does Your T2I Model Follow Your Instructions?](http://arxiv.org/abs/2506.02161v2)** | 2025-06-25 | <details><summary>23 pa...</summary><p>23 pages, 12 figures, 11 tables</p></details> |
-| **[VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](http://arxiv.org/abs/2506.17221v2)** | 2025-06-25 | <details><summary>proje...</summary><p>project page: vlnr1.github.io</p></details> |
-| **[Screen Hijack: Visual Poisoning of VLM Agents in Mobile Environments](http://arxiv.org/abs/2506.13205v3)** | 2025-06-25 | 12 pages |
-| **[MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations](http://arxiv.org/abs/2506.20100v1)** | 2025-06-25 | <details><summary>66 pa...</summary><p>66 pages, 32 figures, 23 tables</p></details> |
-| **[Shape and Texture Recognition in Large Vision-Language Models](http://arxiv.org/abs/2503.23062v3)** | 2025-06-24 |  |
-| **[GlyphPattern: An Abstract Pattern Recognition Benchmark for Vision-Language Models](http://arxiv.org/abs/2408.05894v2)** | 2025-06-24 |  |
-| **[Unified Vision-Language-Action Model](http://arxiv.org/abs/2506.19850v1)** | 2025-06-24 | technical report |
-| **[Evaluating Compliance with Visualization Guidelines in Diagrams for Scientific Publications Using Large Vision Language Models](http://arxiv.org/abs/2506.19825v1)** | 2025-06-24 | <details><summary>Accep...</summary><p>Accepted at ICDAR 2025</p></details> |
-| **[CronusVLA: Transferring Latent Motion Across Time for Multi-Frame Prediction in Manipulation](http://arxiv.org/abs/2506.19816v1)** | 2025-06-24 | 36 pages, 21 figures |
+| **[Mitigating Hallucination of Large Vision-Language Models via Dynamic Logits Calibration](http://arxiv.org/abs/2506.21509v1)** | 2025-06-26 |  |
+| **[Global and Local Entailment Learning for Natural World Imagery](http://arxiv.org/abs/2506.21476v1)** | 2025-06-26 | <details><summary>Accep...</summary><p>Accepted at ICCV 2025</p></details> |
+| **[Spatial Mental Modeling from Limited Views](http://arxiv.org/abs/2506.21458v1)** | 2025-06-26 | Preprint version |
+| **[ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models](http://arxiv.org/abs/2506.21356v1)** | 2025-06-26 |  |
+| **[Learning Efficient and Robust Language-conditioned Manipulation using Textual-Visual Relevancy and Equivariant Language Mapping](http://arxiv.org/abs/2406.15677v2)** | 2025-06-26 |  |
+| **[LLaVA-Pose: Enhancing Human Pose and Action Understanding via Keypoint-Integrated Instruction Tuning](http://arxiv.org/abs/2506.21317v1)** | 2025-06-26 | <details><summary>arXiv...</summary><p>arXiv admin note: substantial text overlap with arXiv:2409.09306</p></details> |
+| **[DrishtiKon: Multi-Granular Visual Grounding for Text-Rich Document Images](http://arxiv.org/abs/2506.21316v1)** | 2025-06-26 | Work in progress |
+| **[World-aware Planning Narratives Enhance Large Vision-Language Model Planner](http://arxiv.org/abs/2506.21230v1)** | 2025-06-26 |  |
+| **[Referring Expression Instance Retrieval and A Strong End-to-End Baseline](http://arxiv.org/abs/2506.18246v3)** | 2025-06-26 |  |
+| **[Personalized Federated Learning via Dual-Prompt Optimization and Cross Fusion](http://arxiv.org/abs/2506.21144v1)** | 2025-06-26 |  |
+| **[V2X-REALM: Vision-Language Model-Based Robust End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling](http://arxiv.org/abs/2506.21041v1)** | 2025-06-26 |  |
+| **[Multimodal Prompt Alignment for Facial Expression Recognition](http://arxiv.org/abs/2506.21017v1)** | 2025-06-26 | <details><summary>To ap...</summary><p>To appear in ICCV2025</p></details> |
+| **[Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology](http://arxiv.org/abs/2506.21001v1)** | 2025-06-26 | MIDL 2025 Oral |
+| **[TSDASeg: A Two-Stage Model with Direct Alignment for Interactive Point Cloud Segmentation](http://arxiv.org/abs/2506.20991v1)** | 2025-06-26 |  |
+| **[SharpZO: Hybrid Sharpness-Aware Vision Language Model Prompt Tuning via Forward-Only Passes](http://arxiv.org/abs/2506.20990v1)** | 2025-06-26 |  |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[Video Perception Models for 3D Scene Synthesis](http://arxiv.org/abs/2506.20601v1)** | 2025-06-25 |  |
-| **[Scientists' First Exam: Probing Cognitive Abilities of MLLM via Perception, Understanding, and Reasoning](http://arxiv.org/abs/2506.10521v3)** | 2025-06-25 | 82 pages |
-| **[SMAR: Soft Modality-Aware Routing Strategy for MoE-based Multimodal Large Language Models Preserving Language Capabilities](http://arxiv.org/abs/2506.06406v2)** | 2025-06-25 |  |
-| **[UniCode$^2$: Cascaded Large-scale Codebooks for Unified Multimodal Understanding and Generation](http://arxiv.org/abs/2506.20214v1)** | 2025-06-25 | 19 pages, 5 figures |
-| **[Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](http://arxiv.org/abs/2506.20168v1)** | 2025-06-25 |  |
-| **[PhysUniBench: An Undergraduate-Level Physics Reasoning Benchmark for Multimodal Models](http://arxiv.org/abs/2506.17667v2)** | 2025-06-25 |  |
-| **[Understanding World or Predicting Future? A Comprehensive Survey of World Models](http://arxiv.org/abs/2411.14499v2)** | 2025-06-25 | <details><summary>Accep...</summary><p>Accepted by ACM CSUR, 37 pages, 7 figures, 7 tables</p></details> |
-| **[ChatSR: Multimodal Large Language Models for Scientific Formula Discovery](http://arxiv.org/abs/2406.05410v2)** | 2025-06-24 | 23 pages, |
-| **[Surgery-R1: Advancing Surgical-VQLA with Reasoning Multimodal Large Language Model via Reinforcement Learning](http://arxiv.org/abs/2506.19469v1)** | 2025-06-24 |  |
-| **[Object-aware Sound Source Localization via Audio-Visual Scene Understanding](http://arxiv.org/abs/2506.18557v2)** | 2025-06-24 | <details><summary>Accep...</summary><p>Accepted at CVPR 2025</p></details> |
-| **[MedErr-CT: A Visual Question Answering Benchmark for Identifying and Correcting Errors in CT Reports](http://arxiv.org/abs/2506.19217v1)** | 2025-06-24 | <details><summary>14 pa...</summary><p>14 pages, 5 figures, submitted to CVPR 2025</p></details> |
-| **[TAMMs: Temporal-Aware Multimodal Model for Satellite Image Change Understanding and Forecasting](http://arxiv.org/abs/2506.18862v1)** | 2025-06-23 | <details><summary>Submi...</summary><p>Submitted to the 33rd ACM International Conference on Multimedia. Our dataset can be found at https://huggingface.co/datasets/IceInPot/TAMMs</p></details> |
-| **[Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems](http://arxiv.org/abs/2411.01173v2)** | 2025-06-23 | <details><summary>Accep...</summary><p>Accepted to The Forty-Second International Conference on Machine Learning (ICML 2025)</p></details> |
-| **[LLM-enhanced Interactions in Human-Robot Collaborative Drawing with Older Adults](http://arxiv.org/abs/2506.18711v1)** | 2025-06-23 |  |
-| **[Context-Aware Human Behavior Prediction Using Multimodal Large Language Models: Challenges and Insights](http://arxiv.org/abs/2504.00839v2)** | 2025-06-23 | <details><summary>Accep...</summary><p>Accepted at IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 2025</p></details> |
+| **[Exploring the Design Space of 3D MLLMs for CT Report Generation](http://arxiv.org/abs/2506.21535v1)** | 2025-06-26 |  |
+| **[ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing](http://arxiv.org/abs/2506.21448v1)** | 2025-06-26 |  |
+| **[TableMoE: Neuro-Symbolic Routing for Structured Expert Reasoning in Multimodal Table Understanding](http://arxiv.org/abs/2506.21393v1)** | 2025-06-26 | <details><summary>43 pa...</summary><p>43 pages and 11 figures</p></details> |
+| **[STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?](http://arxiv.org/abs/2503.23765v5)** | 2025-06-26 |  |
+| **[SMMILE: An Expert-Driven Benchmark for Multimodal Medical In-Context Learning](http://arxiv.org/abs/2506.21355v1)** | 2025-06-26 |  |
+| **[HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context](http://arxiv.org/abs/2506.21277v1)** | 2025-06-26 |  |
+| **[Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](http://arxiv.org/abs/2506.21252v1)** | 2025-06-26 | ACL 2025 Main |
+| **[SA-Person: Text-Based Person Retrieval with Scene-aware Re-ranking](http://arxiv.org/abs/2505.24466v2)** | 2025-06-26 | <details><summary>22 pa...</summary><p>22 pages, 7 figures. Under review</p></details> |
+| **[Task-Aware KV Compression For Cost-Effective Long Video Understanding](http://arxiv.org/abs/2506.21184v1)** | 2025-06-26 | <details><summary>14 pa...</summary><p>14 pages, 3 figures, 6 tables</p></details> |
+| **[Metis-RISE: RL Incentivizes and SFT Enhances Multimodal Reasoning Model Learning](http://arxiv.org/abs/2506.13056v2)** | 2025-06-26 | <details><summary>Proje...</summary><p>Project Page: https://github.com/MM-Thinking/Metis-RISE</p></details> |
+| **[OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography](http://arxiv.org/abs/2506.21101v1)** | 2025-06-26 | <details><summary>Accep...</summary><p>Accepted to ICCV 2025</p></details> |
+| **[Evidence-based diagnostic reasoning with multi-agent copilot for human pathology](http://arxiv.org/abs/2506.20964v1)** | 2025-06-26 |  |
+| **[Taming the Untamed: Graph-Based Knowledge Retrieval and Reasoning for MLLMs to Conquer the Unknown](http://arxiv.org/abs/2506.17589v2)** | 2025-06-26 | <details><summary>Accep...</summary><p>Accepted by ICCV 2025</p></details> |
+| **[PP-DocBee: Improving Multimodal Document Understanding Through a Bag of Tricks](http://arxiv.org/abs/2503.04065v3)** | 2025-06-26 |  |
+| **[What Do You See? Enhancing Zero-Shot Image Classification with Multimodal Large Language Models](http://arxiv.org/abs/2405.15668v5)** | 2025-06-25 |  |
 
