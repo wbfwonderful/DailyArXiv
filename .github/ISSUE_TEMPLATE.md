@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - July 11, 2025
+title: Latest 15 Papers - July 14, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -26,6 +26,9 @@ labels: documentation
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs](http://arxiv.org/abs/2507.07990v1)** | 2025-07-10 | <details><summary>Accep...</summary><p>Accepted at ICCV2025; Project page: https://www.jshyun.me/projects/sttm</p></details> |
+| **[video-SALMONN 2: Captioning-Enhanced Audio-Visual Large Language Models](http://arxiv.org/abs/2506.15220v2)** | 2025-07-10 |  |
+| **[One Trajectory, One Token: Grounded Video Tokenization via Panoptic Sub-object Trajectory](http://arxiv.org/abs/2505.23617v2)** | 2025-07-09 | ICCV 2025 |
 | **[LongAnimation: Long Animation Generation with Dynamic Global-Local Memory](http://arxiv.org/abs/2507.01945v2)** | 2025-07-09 |  |
 | **[Omni-Video: Democratizing Unified Video Understanding and Generation](http://arxiv.org/abs/2507.06119v2)** | 2025-07-09 | <details><summary>Techn...</summary><p>Technical report, project page: https://howellyoung-s.github.io/OmniVideo_project/</p></details> |
 | **[MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding](http://arxiv.org/abs/2507.06072v1)** | 2025-07-08 |  |
@@ -38,45 +41,42 @@ labels: documentation
 | **[PEVLM: Parallel Encoding for Vision-Language Models](http://arxiv.org/abs/2506.19651v2)** | 2025-07-07 |  |
 | **[Q-Frame: Query-aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs](http://arxiv.org/abs/2506.22139v2)** | 2025-07-07 | <details><summary>Accep...</summary><p>Accepted at ICCV 2025</p></details> |
 | **[Tempo-R0: A Video-MLLM for Temporal Video Grounding through Efficient Temporal Sensing Reinforcement Learning](http://arxiv.org/abs/2507.04702v1)** | 2025-07-07 |  |
-| **[Domain Adaptation of VLM for Soccer Video Understanding](http://arxiv.org/abs/2505.13860v2)** | 2025-07-07 | <details><summary>8 pag...</summary><p>8 pages, 5 figures, accepted to the 11th IEEE International Workshop on Computer Vision in Sports (CVSports) at CVPR 2025; supplementary appendix included</p></details> |
-| **[AuroraLong: Bringing RNNs Back to Efficient Open-Ended Video Understanding](http://arxiv.org/abs/2507.02591v2)** | 2025-07-07 | <details><summary>Accep...</summary><p>Accepted to ICCV 2025</p></details> |
-| **[M$^3$-Med: A Benchmark for Multi-lingual, Multi-modal, and Multi-hop Reasoning in Medical Instructional Video Understanding](http://arxiv.org/abs/2507.04289v1)** | 2025-07-06 | <details><summary>19 pa...</summary><p>19 pages, 8 figures, 7 tables</p></details> |
 
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[4KAgent: Agentic Any Image to 4K Super-Resolution](http://arxiv.org/abs/2507.07105v1)** | 2025-07-09 | <details><summary>Proje...</summary><p>Project page: https://4kagent.github.io</p></details> |
-| **[Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models](http://arxiv.org/abs/2507.07104v1)** | 2025-07-09 |  |
-| **[Evaluating Attribute Confusion in Fashion Text-to-Image Generation](http://arxiv.org/abs/2507.07079v1)** | 2025-07-09 | <details><summary>Accep...</summary><p>Accepted to ICIAP25. Project page: site [https://intelligolabs.github.io/L-VQAScore/\</p></details> |
-| **[Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM](http://arxiv.org/abs/2507.06973v1)** | 2025-07-09 | <details><summary>Accep...</summary><p>Accepted to CVPR 2025</p></details> |
-| **[CheXPO: Preference Optimization for Chest X-ray VLMs with Counterfactual Rationale](http://arxiv.org/abs/2507.06959v1)** | 2025-07-09 |  |
-| **[OpenThinkIMG: Learning to Think with Images via Visual Tool Reinforcement Learning](http://arxiv.org/abs/2505.08617v2)** | 2025-07-09 | Work in progress |
-| **[VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation](http://arxiv.org/abs/2507.06899v1)** | 2025-07-09 |  |
-| **[HVI-CIDNet+: Beyond Extreme Darkness for Low-Light Image Enhancement](http://arxiv.org/abs/2507.06814v1)** | 2025-07-09 | 14 pages |
-| **[Finetuning Vision-Language Models as OCR Systems for Low-Resource Languages: A Case Study of Manchu](http://arxiv.org/abs/2507.06761v1)** | 2025-07-09 |  |
-| **[Text-promptable Object Counting via Quantity Awareness Enhancement](http://arxiv.org/abs/2507.06679v1)** | 2025-07-09 | 13 pages, 5 figures |
-| **[Animation Needs Attention: A Holistic Approach to Slides Animation Comprehension with Visual-Language Models](http://arxiv.org/abs/2507.03916v2)** | 2025-07-09 | <details><summary>Appen...</summary><p>Appendix at: https://github.com/PAMPAS-Lab/ANA-PPT-Anamation/blob/main/Appendix.pdf</p></details> |
-| **[Cross-Modal Dual-Causal Learning for Long-Term Action Recognition](http://arxiv.org/abs/2507.06603v1)** | 2025-07-09 |  |
-| **[DriveMRP: Enhancing Vision-Language Models with Synthetic Motion Data for Motion Risk Prediction](http://arxiv.org/abs/2507.02948v2)** | 2025-07-09 | <details><summary>12 pa...</summary><p>12 pages, 4 figures. Code available at https://github.com/hzy138/DriveMRP</p></details> |
-| **[Integrated Structural Prompt Learning for Vision-Language Models](http://arxiv.org/abs/2507.05677v2)** | 2025-07-09 |  |
-| **[Bilateral Collaboration with Large Vision-Language Models for Open Vocabulary Human-Object Interaction Detection](http://arxiv.org/abs/2507.06510v1)** | 2025-07-09 | ICCV 2025 |
+| **[CLIP Won't Learn Object-Attribute Binding from Natural Data and Here is Why](http://arxiv.org/abs/2507.07985v1)** | 2025-07-10 |  |
+| **[Scaling RL to Long Videos](http://arxiv.org/abs/2507.07966v1)** | 2025-07-10 | <details><summary>Code ...</summary><p>Code and models are available at https://github.com/NVlabs/Long-RL</p></details> |
+| **[SAGE: A Visual Language Model for Anomaly Detection via Fact Enhancement and Entropy-aware Alignment](http://arxiv.org/abs/2507.07939v1)** | 2025-07-10 | <details><summary>Accep...</summary><p>Accepted by ACMMM2025</p></details> |
+| **[Skywork-R1V3 Technical Report](http://arxiv.org/abs/2507.06167v3)** | 2025-07-10 |  |
+| **[MoSE: Skill-by-Skill Mixture-of-Expert Learning for Autonomous Driving](http://arxiv.org/abs/2507.07818v1)** | 2025-07-10 |  |
+| **[Energy-Guided Decoding for Object Hallucination Mitigation](http://arxiv.org/abs/2507.07731v1)** | 2025-07-10 |  |
+| **[One Object, Multiple Lies: A Benchmark for Cross-task Adversarial Attack on Unified Vision-Language Models](http://arxiv.org/abs/2507.07709v1)** | 2025-07-10 |  |
+| **[Adaptation of Multi-modal Representation Models for Multi-task Surgical Computer Vision](http://arxiv.org/abs/2507.05020v2)** | 2025-07-10 |  |
+| **[Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](http://arxiv.org/abs/2507.07685v1)** | 2025-07-10 | 17 pages, 4 figures |
+| **[ViLU: Learning Vision-Language Uncertainties for Failure Prediction](http://arxiv.org/abs/2507.07620v1)** | 2025-07-10 |  |
+| **[LOSC: LiDAR Open-voc Segmentation Consolidator](http://arxiv.org/abs/2507.07605v1)** | 2025-07-10 |  |
+| **[The Synergy Dilemma of Long-CoT SFT and RL: Investigating Post-Training Techniques for Reasoning VLMs](http://arxiv.org/abs/2507.07562v1)** | 2025-07-10 |  |
+| **[Hierarchical Vision-Language Planning for Multi-Step Humanoid Manipulation](http://arxiv.org/abs/2506.22827v3)** | 2025-07-10 | <details><summary>Accep...</summary><p>Accepted at the RSS 2025 Workshop on Robot Planning in the Era of Foundation Models</p></details> |
+| **[ArchiveGPT: A human-centered evaluation of using a vision language model for image cataloguing](http://arxiv.org/abs/2507.07551v1)** | 2025-07-10 | 56 pages, 7 figures |
+| **[Entity Re-identification in Visual Storytelling via Contrastive Reinforcement Learning](http://arxiv.org/abs/2507.07340v1)** | 2025-07-09 | 7 pages |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Multigranular Evaluation for Brain Visual Decoding](http://arxiv.org/abs/2507.07993v1)** | 2025-07-10 | <details><summary>Proje...</summary><p>Project: https://weihaox.github.io/BASIC</p></details> |
+| **[OST-Bench: Evaluating the Capabilities of MLLMs in Online Spatio-temporal Scene Understanding](http://arxiv.org/abs/2507.07984v1)** | 2025-07-10 | <details><summary>28 pa...</summary><p>28 pages, a benchmark designed to evaluate Online Spatio-Temporal understanding from the perspective of an agent actively exploring a scene. Project Page: https://rbler1234.github.io/OSTBench.github.io/</p></details> |
+| **[STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](http://arxiv.org/abs/2505.15804v3)** | 2025-07-10 |  |
+| **[MIRA: A Novel Framework for Fusing Modalities in Medical RAG](http://arxiv.org/abs/2507.07902v1)** | 2025-07-10 | ACM Multimedia 2025 |
+| **["I am bad": Interpreting Stealthy, Universal and Robust Audio Jailbreaks in Audio-Language Models](http://arxiv.org/abs/2502.00718v2)** | 2025-07-10 |  |
+| **[Single-to-mix Modality Alignment with Multimodal Large Language Model for Document Image Machine Translation](http://arxiv.org/abs/2507.07572v1)** | 2025-07-10 | <details><summary>Accep...</summary><p>Accepted by ACL 2025 Main</p></details> |
+| **[MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](http://arxiv.org/abs/2408.02900v3)** | 2025-07-10 | <details><summary>The d...</summary><p>The dataset is publicly available at https://yunfeixie233.github.io/MedTrinity-25M/. Accepted to ICLR 2025</p></details> |
+| **[StarDojo: Benchmarking Open-Ended Behaviors of Agentic Multimodal LLMs in Production-Living Simulations with Stardew Valley](http://arxiv.org/abs/2507.07445v1)** | 2025-07-10 | <details><summary>Proje...</summary><p>Project website: https://weihaotan.github.io/StarDojo</p></details> |
+| **[Corvid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning](http://arxiv.org/abs/2507.07424v1)** | 2025-07-10 | ICCV 2025 |
+| **[Diffusion Augmented Retrieval: A Training-Free Approach to Interactive Text-to-Image Retrieval](http://arxiv.org/abs/2501.15379v2)** | 2025-07-10 |  |
+| **[DLaVA: Document Language and Vision Assistant for Answer Localization with Enhanced Interpretability and Trustworthiness](http://arxiv.org/abs/2412.00151v2)** | 2025-07-10 |  |
 | **[Towards Multimodal Understanding via Stable Diffusion as a Task-Aware Feature Extractor](http://arxiv.org/abs/2507.07106v1)** | 2025-07-09 | <details><summary>Websi...</summary><p>Website: see https://vatsalag99.github.io/mustafar/</p></details> |
 | **[Omni-Video: Democratizing Unified Video Understanding and Generation](http://arxiv.org/abs/2507.06119v2)** | 2025-07-09 | <details><summary>Techn...</summary><p>Technical report, project page: https://howellyoung-s.github.io/OmniVideo_project/</p></details> |
+| **[Robust Multimodal Large Language Models Against Modality Conflict](http://arxiv.org/abs/2507.07151v1)** | 2025-07-09 | ICML 2025 |
 | **[Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs](http://arxiv.org/abs/2501.04670v3)** | 2025-07-09 | Accepted by ICCV2025 |
-| **[Hespi: A pipeline for automatically detecting information from hebarium specimen sheets](http://arxiv.org/abs/2410.08740v2)** | 2025-07-09 | 15 pages, 7 figures |
-| **[FIFA: Unified Faithfulness Evaluation Framework for Text-to-Video and Video-to-Text Generation](http://arxiv.org/abs/2507.06523v1)** | 2025-07-09 |  |
-| **[DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE](http://arxiv.org/abs/2506.21864v2)** | 2025-07-09 | Under Review |
-| **[BlueLM-2.5-3B Technical Report](http://arxiv.org/abs/2507.05934v1)** | 2025-07-08 |  |
-| **[TalkFashion: Intelligent Virtual Try-On Assistant Based on Multimodal Large Language Model](http://arxiv.org/abs/2507.05790v1)** | 2025-07-08 | 6 pages, 5 figures |
-| **[Fine-Grained Knowledge Structuring and Retrieval for Visual Question Answering](http://arxiv.org/abs/2502.20964v3)** | 2025-07-08 |  |
-| **[UniCode$^2$: Cascaded Large-scale Codebooks for Unified Multimodal Understanding and Generation](http://arxiv.org/abs/2506.20214v2)** | 2025-07-08 | 19 pages, 5 figures |
-| **[MLlm-DR: Towards Explainable Depression Recognition with MultiModal Large Language Models](http://arxiv.org/abs/2507.05591v1)** | 2025-07-08 |  |
-| **[Reinforcement Fine-Tuning Naturally Mitigates Forgetting in Continual Post-Training](http://arxiv.org/abs/2507.05386v1)** | 2025-07-07 |  |
-| **[Beyond Simple Edits: X-Planner for Complex Instruction-Based Image Editing](http://arxiv.org/abs/2507.05259v1)** | 2025-07-07 | <details><summary>Proje...</summary><p>Project page: https://danielchyeh.github.io/x-planner/</p></details> |
-| **[Spatio-Temporal LLM: Reasoning about Environments and Actions](http://arxiv.org/abs/2507.05258v1)** | 2025-07-07 | <details><summary>Code ...</summary><p>Code and data are available at https://zoezheng126.github.io/STLLM-website/</p></details> |
-| **[Transfer Attack for Bad and Good: Explain and Boost Adversarial Transferability across Multimodal Large Language Models](http://arxiv.org/abs/2405.20090v4)** | 2025-07-07 | <details><summary>Accep...</summary><p>Accepted by ACM MM 2025</p></details> |
 
