@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - July 28, 2025
+title: Latest 15 Papers - July 29, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -45,28 +45,32 @@ labels: documentation
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[Scaling RL to Long Videos](http://arxiv.org/abs/2507.07966v2)** | 2025-07-24 | <details><summary>Code ...</summary><p>Code at https://github.com/NVlabs/Long-RL and model at https://huggingface.co/Efficient-Large-Model/LongVILA-R1-7B</p></details> |
-| **[External Knowledge Injection for CLIP-Based Class-Incremental Learning](http://arxiv.org/abs/2503.08510v2)** | 2025-07-24 | <details><summary>Accep...</summary><p>Accepted to ICCV 2025. Code is available at: https://github.com/LAMDA-CL/ICCV25-ENGINE</p></details> |
-| **[Visual Adaptive Prompting for Compositional Zero-Shot Learning](http://arxiv.org/abs/2502.20292v6)** | 2025-07-24 |  |
-| **[DiagR1: A Vision-Language Model Trained via Reinforcement Learning for Digestive Pathology Diagnosis](http://arxiv.org/abs/2507.18433v1)** | 2025-07-24 |  |
-| **[Personalization Toolkit: Training Free Personalization of Large Vision Language Models](http://arxiv.org/abs/2502.02452v3)** | 2025-07-24 |  |
-| **[LLMShot: Reducing snapshot testing maintenance via LLMs](http://arxiv.org/abs/2507.10062v2)** | 2025-07-24 | <details><summary>Accep...</summary><p>Accepted to ICSME 2025</p></details> |
-| **[Improving Large Vision-Language Models' Understanding for Field Data](http://arxiv.org/abs/2507.18311v1)** | 2025-07-24 |  |
-| **[Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning](http://arxiv.org/abs/2503.12972v2)** | 2025-07-24 | <details><summary>14 pa...</summary><p>14 pages, 7 figures, 6 tables; Accepted to ICCV 2025</p></details> |
-| **[EVEv2: Improved Baselines for Encoder-Free Vision-Language Models](http://arxiv.org/abs/2502.06788v2)** | 2025-07-24 | <details><summary>20 pa...</summary><p>20 pages, 10 figures, Accepted by ICCV2025 (highlight)</p></details> |
-| **[ViLU: Learning Vision-Language Uncertainties for Failure Prediction](http://arxiv.org/abs/2507.07620v3)** | 2025-07-24 |  |
-| **[When Large Vision-Language Model Meets Large Remote Sensing Imagery: Coarse-to-Fine Text-Guided Token Pruning](http://arxiv.org/abs/2503.07588v3)** | 2025-07-24 | <details><summary>18 pa...</summary><p>18 pages, 6 figures, 18 tables</p></details> |
-| **[T2VWorldBench: A Benchmark for Evaluating World Knowledge in Text-to-Video Generation](http://arxiv.org/abs/2507.18107v1)** | 2025-07-24 |  |
-| **[Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning](http://arxiv.org/abs/2507.18100v1)** | 2025-07-24 |  |
-| **[ELITE: Enhanced Language-Image Toxicity Evaluation for Safety](http://arxiv.org/abs/2502.04757v3)** | 2025-07-24 | <details><summary>ICML ...</summary><p>ICML 2025. Project page at https://velpegor.github.io/ELITE/</p></details> |
-| **[Adapting Large VLMs with Iterative and Manual Instructions for Generative Low-light Enhancement](http://arxiv.org/abs/2507.18064v1)** | 2025-07-24 |  |
+| **[Long-Form Answers to Visual Questions from Blind and Low Vision People](http://arxiv.org/abs/2408.06303v2)** | 2025-07-25 | <details><summary>COLM ...</summary><p>COLM 2024 Oral Spotlight</p></details> |
+| **[CircuitProbe: Dissecting Spatiotemporal Visual Semantics with Circuit Tracing](http://arxiv.org/abs/2507.19420v1)** | 2025-07-25 |  |
+| **[CXR-CML: Improved zero-shot classification of long-tailed multi-label diseases in Chest X-Rays](http://arxiv.org/abs/2507.19398v1)** | 2025-07-25 |  |
+| **[LOTUS: A Leaderboard for Detailed Image Captioning from Quality to Societal Bias and User Preferences](http://arxiv.org/abs/2507.19362v1)** | 2025-07-25 | <details><summary>Accep...</summary><p>Accepted to ACL 2025. Leaderboard: huggingface.co/spaces/nvidia/lotus-vlm-bias-leaderboard</p></details> |
+| **[Short-Form Video Recommendations with Multimodal Embeddings: Addressing Cold-Start and Bias Challenges](http://arxiv.org/abs/2507.19346v1)** | 2025-07-25 |  |
+| **[All in One: Visual-Description-Guided Unified Point Cloud Segmentation](http://arxiv.org/abs/2507.05211v2)** | 2025-07-25 | Accepted by ICCV2025 |
+| **[OVFact: Measuring and Improving Open-Vocabulary Factuality for Long Caption Models](http://arxiv.org/abs/2507.19262v1)** | 2025-07-25 |  |
+| **[Towards Multimodal Social Conversations with Robots: Using Vision-Language Models](http://arxiv.org/abs/2507.19196v1)** | 2025-07-25 | <details><summary>Submi...</summary><p>Submitted to the workshop "Human - Foundation Models Interaction: A Focus On Multimodal Information" (FoMo-HRI) at IEEE RO-MAN 2025</p></details> |
+| **[Blind Spot Navigation: Evolutionary Discovery of Sensitive Semantic Concepts for LVLMs](http://arxiv.org/abs/2505.15265v2)** | 2025-07-25 | <details><summary>The p...</summary><p>The paper needs major revisions, so it is being withdrawn</p></details> |
+| **[Negation-Aware Test-Time Adaptation for Vision-Language Models](http://arxiv.org/abs/2507.19064v1)** | 2025-07-25 | <details><summary>This ...</summary><p>This paper will be submitted to the IEEE for possible publication</p></details> |
+| **[Closing the Modality Gap for Mixed Modality Search](http://arxiv.org/abs/2507.19054v1)** | 2025-07-25 | <details><summary>Proje...</summary><p>Project page: https://yuhui-zh15.github.io/MixedModalitySearch/</p></details> |
+| **[Verbalized Representation Learning for Interpretable Few-Shot Generalization](http://arxiv.org/abs/2411.18651v2)** | 2025-07-25 | <details><summary>Accep...</summary><p>Accepted to ICCV 2025</p></details> |
+| **[Mining Contextualized Visual Associations from Images for Creativity Understanding](http://arxiv.org/abs/2507.18915v1)** | 2025-07-25 |  |
+| **[HumorDB: Can AI understand graphical humor?](http://arxiv.org/abs/2406.13564v2)** | 2025-07-24 | <details><summary>10 ma...</summary><p>10 main figures, 4 additional appendix figures</p></details> |
+| **[SAR-TEXT: A Large-Scale SAR Image-Text Dataset Built with SAR-Narrator and Progressive Transfer Learning](http://arxiv.org/abs/2507.18743v1)** | 2025-07-24 | IEEE Submission |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[ReSem3D: Refinable 3D Spatial Constraints via Fine-Grained Semantic Grounding for Generalizable Robotic Manipulation](http://arxiv.org/abs/2507.18262v2)** | 2025-07-25 | 12 pages,9 figures |
+| **[SE-VLN: A Self-Evolving Vision-Language Navigation Framework Based on Multimodal Large Language Models](http://arxiv.org/abs/2507.13152v2)** | 2025-07-25 |  |
+| **[Accelerating Multimodal Large Language Models via Dynamic Visual-Token Exit and the Empirical Findings](http://arxiv.org/abs/2411.19628v2)** | 2025-07-25 |  |
+| **[LISA: A Layer-wise Integration and Suppression Approach for Hallucination Mitigation in Multimodal Large Language Models](http://arxiv.org/abs/2507.19110v1)** | 2025-07-25 |  |
+| **[MGHFT: Multi-Granularity Hierarchical Fusion Transformer for Cross-Modal Sticker Emotion Recognition](http://arxiv.org/abs/2507.18929v1)** | 2025-07-25 | <details><summary>Accep...</summary><p>Accepted by ACMMM2025</p></details> |
 | **[EgoExoBench: A Benchmark for First- and Third-person View Video Understanding in MLLMs](http://arxiv.org/abs/2507.18342v1)** | 2025-07-24 |  |
 | **[VolDoGer: LLM-assisted Datasets for Domain Generalization in Vision-Language Tasks](http://arxiv.org/abs/2407.19795v2)** | 2025-07-24 | <details><summary>ICCV ...</summary><p>ICCV 2025 Workshop on Curated Data for Efficient Learning (CDEL)</p></details> |
-| **[ReSem3D: Refinable 3D Spatial Constraints via Fine-Grained Semantic Grounding for Generalizable Robotic Manipulation](http://arxiv.org/abs/2507.18262v1)** | 2025-07-24 | 12 pages,9 figures |
 | **[Flash-VStream: Efficient Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2506.23825v2)** | 2025-07-24 | <details><summary>Accep...</summary><p>Accepted by ICCV 2025</p></details> |
 | **[A Survey of Deep Learning for Geometry Problem Solving](http://arxiv.org/abs/2507.11936v3)** | 2025-07-24 | Work in progress |
 | **[FUDOKI: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities](http://arxiv.org/abs/2505.20147v3)** | 2025-07-24 | 37 pages, 12 figures |
@@ -75,8 +79,4 @@ labels: documentation
 | **[See the Forest and the Trees: A Synergistic Reasoning Framework for Knowledge-Based Visual Question Answering](http://arxiv.org/abs/2507.17659v1)** | 2025-07-23 |  |
 | **[Constructing Ophthalmic MLLM for Positioning-diagnosis Collaboration Through Clinical Cognitive Chain Reasoning](http://arxiv.org/abs/2507.17539v1)** | 2025-07-23 |  |
 | **[Improving the Reasoning of Multi-Image Grounding in MLLMs via Reinforcement Learning](http://arxiv.org/abs/2507.00748v2)** | 2025-07-23 | 10 pages |
-| **[ERMV: Editing 4D Robotic Multi-view images to enhance embodied agents](http://arxiv.org/abs/2507.17462v1)** | 2025-07-23 |  |
-| **[HiProbe-VAD: Video Anomaly Detection via Hidden States Probing in Tuning-Free Multimodal LLMs](http://arxiv.org/abs/2507.17394v1)** | 2025-07-23 | <details><summary>Accep...</summary><p>Accepted by ACM MM 2025</p></details> |
-| **[A Versatile Pathology Co-pilot via Reasoning Enhanced Multimodal Large Language Model](http://arxiv.org/abs/2507.17303v1)** | 2025-07-23 |  |
-| **[Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models](http://arxiv.org/abs/2502.15910v3)** | 2025-07-23 | <details><summary>ACL 2...</summary><p>ACL 2025 Main Conference</p></details> |
 
