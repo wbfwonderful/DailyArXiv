@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - September 02, 2025
+title: Latest 15 Papers - September 03, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -8,6 +8,20 @@ labels: documentation
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
 | **[MissionHD: Data-Driven Refinement of Reasoning Graph Structure through Hyperdimensional Causal Path Encoding and Decoding](http://arxiv.org/abs/2508.14746v1)** | 2025-08-20 |  |
+| **[A Survey on Video Anomaly Detection via Deep Learning: Human, Vehicle, and Environment](http://arxiv.org/abs/2508.14203v1)** | 2025-08-19 |  |
+| **[Logic Unseen: Revealing the Logical Blindspots of Vision-Language Models](http://arxiv.org/abs/2508.11317v1)** | 2025-08-15 |  |
+| **[ALFred: An Active Learning Framework for Real-world Semi-supervised Anomaly Detection with Adaptive Thresholds](http://arxiv.org/abs/2508.09058v1)** | 2025-08-12 |  |
+| **[Mixture of Experts Guided by Gaussian Splatters Matters: A new Approach to Weakly-Supervised Video Anomaly Detection](http://arxiv.org/abs/2508.06318v1)** | 2025-08-08 |  |
+| **[HyPCV-Former: Hyperbolic Spatio-Temporal Transformer for 3D Point Cloud Video Anomaly Detection](http://arxiv.org/abs/2508.00473v1)** | 2025-08-01 |  |
+| **[GV-VAD : Exploring Video Generation for Weakly-Supervised Video Anomaly Detection](http://arxiv.org/abs/2508.00312v1)** | 2025-08-01 |  |
+| **[The Evolution of Video Anomaly Detection: A Unified Framework from DNN to MLLM](http://arxiv.org/abs/2507.21649v1)** | 2025-07-29 |  |
+| **[VAGU & GtS: LLM-Based Benchmark and Framework for Joint Video Anomaly Grounding and Understanding](http://arxiv.org/abs/2507.21507v1)** | 2025-07-29 | <details><summary>21 pa...</summary><p>21 pages, 19 figures, 8 tables</p></details> |
+| **[DAMS:Dual-Branch Adaptive Multiscale Spatiotemporal Framework for Video Anomaly Detection](http://arxiv.org/abs/2507.20629v1)** | 2025-07-28 | 13 pages,7 figures |
+| **[EventVAD: Training-Free Event-Aware Video Anomaly Detection](http://arxiv.org/abs/2504.13092v3)** | 2025-07-28 | <details><summary>Paper...</summary><p>Paper was accepted by ACM MM 2025; Code: https://github.com/YihuaJerry/EventVAD</p></details> |
+| **[HiProbe-VAD: Video Anomaly Detection via Hidden States Probing in Tuning-Free Multimodal LLMs](http://arxiv.org/abs/2507.17394v1)** | 2025-07-23 | <details><summary>Accep...</summary><p>Accepted by ACM MM 2025</p></details> |
+| **[Unmasking Performance Gaps: A Comparative Study of Human Anonymization and Its Effects on Video Anomaly Detection](http://arxiv.org/abs/2507.14083v1)** | 2025-07-18 | ACIVS 2025 |
+| **[ProDisc-VAD: An Efficient System for Weakly-Supervised Anomaly Detection in Video Surveillance Applications](http://arxiv.org/abs/2505.02179v3)** | 2025-07-17 | <details><summary>arXiv...</summary><p>arXiv admin comment: This version has been removed by arXiv administrators as the submitter did not have the rights to agree to the license at the time of submission</p></details> |
+| **[AnyAnomaly: Zero-Shot Customizable Video Anomaly Detection with LVLM](http://arxiv.org/abs/2503.04504v2)** | 2025-07-08 |  |
 
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
