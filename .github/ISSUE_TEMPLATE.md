@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - November 18, 2025
+title: Latest 15 Papers - November 19, 2025
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -7,6 +7,9 @@ labels: documentation
 ## Video Anomaly Detection
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Recognition of Abnormal Events in Surveillance Videos using Weakly Supervised Dual-Encoder Models](https://arxiv.org/abs/2511.13276v1)** | 2025-11-17 | 1 figure, 1 table |
+| **[RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2511.13204v1)** | 2025-11-17 | <details><summary>Accep...</summary><p>Accepted to AAAI 2026</p></details> |
+| **[Learning Time in Static Classifiers](https://arxiv.org/abs/2511.12321v1)** | 2025-11-15 | <details><summary>Accep...</summary><p>Accepted at the Fortieth AAAI Conference on Artificial Intelligence (AAAI 2026)</p></details> |
 | **[Self-supervised Learning of Echocardiographic Video Representations via Online Cluster Distillation](https://arxiv.org/abs/2506.11777v2)** | 2025-11-14 |  |
 | **[Learning to Tell Apart: Weakly Supervised Video Anomaly Detection via Disentangled Semantic Alignment](https://arxiv.org/abs/2511.10334v1)** | 2025-11-13 | <details><summary>Accep...</summary><p>Accepted to AAAI 2026. Code is available at https://github.com/lessiYin/DSANet</p></details> |
 | **[Privacy Beyond Pixels: Latent Anonymization for Privacy-Preserving Video Understanding](https://arxiv.org/abs/2511.08666v1)** | 2025-11-11 |  |
@@ -19,64 +22,61 @@ labels: documentation
 | **[CueBench: Advancing Unified Understanding of Context-Aware Video Anomalies in Real-World](https://arxiv.org/abs/2511.00613v1)** | 2025-11-01 |  |
 | **[TRACES: Temporal Recall with Contextual Embeddings for Real-Time Video Anomaly Detection](https://arxiv.org/abs/2511.00580v1)** | 2025-11-01 | 10 pages, 5 figures |
 | **[Rethinking Metrics and Benchmarks of Video Anomaly Detection](https://arxiv.org/abs/2505.19022v2)** | 2025-10-31 |  |
-| **[Process Integrated Computer Vision for Real-Time Failure Prediction in Steel Rolling Mill](https://arxiv.org/abs/2510.26684v1)** | 2025-10-30 |  |
-| **[Language-guided Open-world Video Anomaly Detection under Weak Supervision](https://arxiv.org/abs/2503.13160v2)** | 2025-10-30 |  |
-| **[Knowledge-Guided Textual Reasoning for Explainable Video Anomaly Detection via LLMs](https://arxiv.org/abs/2511.07429v1)** | 2025-10-30 |  |
 
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[Disentangling Emotional Bases and Transient Fluctuations: A Low-Rank Sparse Decomposition Approach for Video Affective Analysis](https://arxiv.org/abs/2511.11406v1)** | 2025-11-14 |  |
-| **[VIDEOP2R: Video Understanding from Perception to Reasoning](https://arxiv.org/abs/2511.11113v1)** | 2025-11-14 |  |
-| **[A Space-Time Transformer for Precipitation Forecasting](https://arxiv.org/abs/2511.11090v1)** | 2025-11-14 |  |
-| **[Self-supervised Learning of Echocardiographic Video Representations via Online Cluster Distillation](https://arxiv.org/abs/2506.11777v2)** | 2025-11-14 |  |
-| **[EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation](https://arxiv.org/abs/2511.11002v1)** | 2025-11-14 | <details><summary>15 pa...</summary><p>15 pages, 12 figures. Accepted as an Oral presentation at AAAI 2026. For code and dataset, see https://zane-zyqiu.github.io/EmoVid</p></details> |
-| **[Diff-IP2D: Diffusion-Based Hand-Object Interaction Prediction on Egocentric Videos](https://arxiv.org/abs/2405.04370v5)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted to IROS 2025</p></details> |
-| **[Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction](https://arxiv.org/abs/2504.07375v2)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted to IROS 2025</p></details> |
-| **[PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs](https://arxiv.org/abs/2511.10979v1)** | 2025-11-14 | 13 pages, 5 figures |
-| **[MADiff: Motion-Aware Mamba Diffusion Models for Hand Trajectory Prediction on Egocentric Videos](https://arxiv.org/abs/2409.02638v2)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted to TPAMI 2025</p></details> |
-| **[Text-guided Weakly Supervised Framework for Dynamic Facial Expression Recognition](https://arxiv.org/abs/2511.10958v1)** | 2025-11-14 |  |
-| **[NeuS-QA: Grounding Long-Form Video Understanding in Temporal Logic and Neuro-Symbolic Reasoning](https://arxiv.org/abs/2509.18041v2)** | 2025-11-14 |  |
-| **[SIMS-V: Simulated Instruction-Tuning for Spatial Video Understanding](https://arxiv.org/abs/2511.04668v2)** | 2025-11-13 | <details><summary>Proje...</summary><p>Project page: https://ellisbrown.github.io/sims-v</p></details> |
-| **[Q2E: Query-to-Event Decomposition for Zero-Shot Multilingual Text-to-Video Retrieval](https://arxiv.org/abs/2506.10202v2)** | 2025-11-13 | <details><summary>Accep...</summary><p>Accepted in IJCNLP-AACL 2025 (also presented in MAGMAR 2025 at ACL 2025)</p></details> |
-| **[Towards Blind and Low-Vision Accessibility of Lightweight VLMs and Custom LLM-Evals](https://arxiv.org/abs/2511.10615v1)** | 2025-11-13 | 8 pages |
-| **[STATIC : Surface Temporal Affine for TIme Consistency in Video Monocular Depth Estimation](https://arxiv.org/abs/2412.01090v2)** | 2025-11-13 |  |
+| **[Segment Anything Across Shots: A Method and Benchmark](https://arxiv.org/abs/2511.13715v1)** | 2025-11-17 | <details><summary>AAAI ...</summary><p>AAAI 2026, Project Page: https://henghuiding.com/SAAS/</p></details> |
+| **[CacheFlow: Compressive Streaming Memory for Efficient Long-Form Video Understanding](https://arxiv.org/abs/2511.13644v1)** | 2025-11-17 |  |
+| **[GRIM: Task-Oriented Grasping with Conditioning on Generative Examples](https://arxiv.org/abs/2506.15607v2)** | 2025-11-17 | <details><summary>Accep...</summary><p>Accepted to AAAI-26 (Oral). Project website: https://grim-tog.github.io</p></details> |
+| **[Computer Vision based group activity detection and action spotting](https://arxiv.org/abs/2511.13315v1)** | 2025-11-17 |  |
+| **[Video Spatial Reasoning with Object-Centric 3D Rollout](https://arxiv.org/abs/2511.13190v1)** | 2025-11-17 |  |
+| **[Skeletons Speak Louder than Text: A Motion-Aware Pretraining Paradigm for Video-Based Person Re-Identification](https://arxiv.org/abs/2511.13150v1)** | 2025-11-17 |  |
+| **[F.A.C.U.L.: Language-Based Interaction with AI Companions in Gaming](https://arxiv.org/abs/2511.13112v1)** | 2025-11-17 | <details><summary>14 pa...</summary><p>14 pages, 11 figures,</p></details> |
+| **[ViSS-R1: Self-Supervised Reinforcement Video Reasoning](https://arxiv.org/abs/2511.13054v1)** | 2025-11-17 | <details><summary>Our p...</summary><p>Our paper was initially titled "Video-SSR1: Self-Supervised Reinforcement Video Reasoning." Upon noticing its close resemblance to the title of a recently released paper, we have decided to rename our work as "ViSS-R1."</p></details> |
+| **[REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](https://arxiv.org/abs/2511.13026v1)** | 2025-11-17 |  |
+| **[SportR: A Benchmark for Multimodal Large Language Model Reasoning in Sports](https://arxiv.org/abs/2511.06499v2)** | 2025-11-17 |  |
+| **[DeepSport: A Multimodal Large Language Model for Comprehensive Sports Video Reasoning via Agentic Reinforcement Learning](https://arxiv.org/abs/2511.12908v1)** | 2025-11-17 |  |
+| **[Understanding Dynamic Scenes in Ego Centric 4D Point Clouds](https://arxiv.org/abs/2508.07251v3)** | 2025-11-17 | <details><summary>Accep...</summary><p>Accepted as a poster to AAAI 2026; will be published in the proceedings</p></details> |
+| **[Video Finetuning Improves Reasoning Between Frames](https://arxiv.org/abs/2511.12868v1)** | 2025-11-17 | <details><summary>Accep...</summary><p>Accepted at CogInterp @ NeurIPS 2025</p></details> |
+| **[Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data](https://arxiv.org/abs/2511.12609v1)** | 2025-11-16 | <details><summary>47 pa...</summary><p>47 pages,10 Figures, Project Website: https://idealistxy.github.io/Uni-MoE-v2.github.io/; Codes: https://github.com/HITsz-TMG/Uni-MoE</p></details> |
+| **[Pixels or Positions? Benchmarking Modalities in Group Activity Recognition](https://arxiv.org/abs/2511.12606v1)** | 2025-11-16 |  |
 
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding](https://arxiv.org/abs/2511.11552v1)** | 2025-11-14 |  |
-| **[Bridging Hidden States in Vision-Language Models](https://arxiv.org/abs/2511.11526v1)** | 2025-11-14 |  |
-| **[Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities](https://arxiv.org/abs/2511.11512v1)** | 2025-11-14 |  |
-| **[PAS : Prelim Attention Score for Detecting Object Hallucinations in Large Vision--Language Models](https://arxiv.org/abs/2511.11502v1)** | 2025-11-14 |  |
-| **[Rethinking Progression of Memory State in Robotic Manipulation: An Object-Centric Perspective](https://arxiv.org/abs/2511.11478v1)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted at AAAI 2026</p></details> |
-| **[Metric Learning Encoding Models: A Multivariate Framework for Interpreting Neural Representations](https://arxiv.org/abs/2402.11608v2)** | 2025-11-14 | 30 pages, 20 figures |
-| **[VoxTell: Free-Text Promptable Universal 3D Medical Image Segmentation](https://arxiv.org/abs/2511.11450v1)** | 2025-11-14 |  |
-| **[From Synthetic Scenes to Real Performance: Enhancing Spatial Reasoning in VLMs](https://arxiv.org/abs/2511.11440v1)** | 2025-11-14 |  |
-| **[VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models](https://arxiv.org/abs/2511.11438v1)** | 2025-11-14 | <details><summary>This ...</summary><p>This is the extended version of the paper accepted at AAAI 2026, which includes all technical appendices and additional experimental details</p></details> |
-| **[BOFA: Bridge-Layer Orthogonal Low-Rank Fusion for CLIP-Based Class-Incremental Learning](https://arxiv.org/abs/2511.11421v1)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted by AAAI 2026</p></details> |
-| **[Q-Doc: Benchmarking Document Image Quality Assessment Capabilities in Multi-modal Large Language Models](https://arxiv.org/abs/2511.11410v1)** | 2025-11-14 |  |
-| **[Leveraging NTPs for Efficient Hallucination Detection in VLMs](https://arxiv.org/abs/2509.20379v2)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted to The First Workshop on Confabulation, Hallucinations, & Overgeneration in Multilingual & Precision-critical Setting - AACL-IJCNLP2025</p></details> |
-| **[MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model](https://arxiv.org/abs/2511.11407v1)** | 2025-11-14 | 11 pages, 4 figures |
-| **[Adaptive Cache Enhancement for Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2508.07570v2)** | 2025-11-14 | <details><summary>12 pa...</summary><p>12 pages, Under review</p></details> |
-| **[Unifying Segment Anything in Microscopy with Vision-Language Knowledge](https://arxiv.org/abs/2505.10769v2)** | 2025-11-14 | 15 pages, 5 figures |
+| **[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684v1)** | 2025-11-17 | <details><summary>Submi...</summary><p>Submitting for Neurocomputing</p></details> |
+| **[CacheFlow: Compressive Streaming Memory for Efficient Long-Form Video Understanding](https://arxiv.org/abs/2511.13644v1)** | 2025-11-17 |  |
+| **[CreBench: Human-Aligned Creativity Evaluation from Idea to Process to Product](https://arxiv.org/abs/2511.13626v1)** | 2025-11-17 | <details><summary>13 pa...</summary><p>13 pages, 3 figures,The 40th Annual AAAI Conference on Artificial Intelligence(AAAI 2026),Paper has been accepted for a poster presentation</p></details> |
+| **[Viper-F1: Fast and Fine-Grained Multimodal Understanding with Cross-Modal State-Space Modulation](https://arxiv.org/abs/2511.11177v2)** | 2025-11-17 |  |
+| **[FreeAskWorld: An Interactive and Closed-Loop Simulator for Human-Centric Embodied AI](https://arxiv.org/abs/2511.13524v1)** | 2025-11-17 | 9 pages, 4 figures |
+| **[Language-Guided Invariance Probing of Vision-Language Models](https://arxiv.org/abs/2511.13494v1)** | 2025-11-17 |  |
+| **[Semantic Document Derendering: SVG Reconstruction via Vision-Language Modeling](https://arxiv.org/abs/2511.13478v1)** | 2025-11-17 |  |
+| **[Trust in Vision-Language Models: Insights from a Participatory User Workshop](https://arxiv.org/abs/2511.13458v1)** | 2025-11-17 |  |
+| **[Unlocking the Forgery Detection Potential of Vanilla MLLMs: A Novel Training-Free Pipeline](https://arxiv.org/abs/2511.13442v1)** | 2025-11-17 |  |
+| **[VOPE: Revisiting Hallucination of Vision-Language Models in Voluntary Imagination Task](https://arxiv.org/abs/2511.13420v1)** | 2025-11-17 | 8 pages |
+| **[Descriptor: Distance-Annotated Traffic Perception Question Answering (DTPQA)](https://arxiv.org/abs/2511.13397v1)** | 2025-11-17 |  |
+| **[Moving Pictures of Thought: Extracting Visual Knowledge in Charles S. Peirce's Manuscripts with Vision-Language Models](https://arxiv.org/abs/2511.13378v1)** | 2025-11-17 |  |
+| **[LLMC+: Benchmarking Vision-Language Model Compression with a Plug-and-play Toolkit](https://arxiv.org/abs/2508.09981v2)** | 2025-11-17 | <details><summary>Accep...</summary><p>Accepted by AAAI 2026</p></details> |
+| **[Tab-PET: Graph-Based Positional Encodings for Tabular Transformers](https://arxiv.org/abs/2511.13338v1)** | 2025-11-17 |  |
+| **[TabFlash: Efficient Table Understanding with Progressive Question Conditioning and Token Focusing](https://arxiv.org/abs/2511.13283v1)** | 2025-11-17 | <details><summary>AAAI ...</summary><p>AAAI 2026 (Main Technical Track)</p></details> |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[Speech-Audio Compositional Attacks on Multimodal LLMs and Their Mitigation with SALMONN-Guard](https://arxiv.org/abs/2511.10222v2)** | 2025-11-14 |  |
-| **[VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models](https://arxiv.org/abs/2511.11438v1)** | 2025-11-14 | <details><summary>This ...</summary><p>This is the extended version of the paper accepted at AAAI 2026, which includes all technical appendices and additional experimental details</p></details> |
-| **[CURENet: Combining Unified Representations for Efficient Chronic Disease Prediction](https://arxiv.org/abs/2511.11423v1)** | 2025-11-14 |  |
-| **[MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model](https://arxiv.org/abs/2511.11407v1)** | 2025-11-14 | 11 pages, 4 figures |
-| **[Unifying Segment Anything in Microscopy with Vision-Language Knowledge](https://arxiv.org/abs/2505.10769v2)** | 2025-11-14 | 15 pages, 5 figures |
-| **[DocSLM: A Small Vision-Language Model for Long Multimodal Document Understanding](https://arxiv.org/abs/2511.11313v1)** | 2025-11-14 |  |
-| **[AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models](https://arxiv.org/abs/2511.11299v1)** | 2025-11-14 | <details><summary>AAAI ...</summary><p>AAAI 2026. Code: https://github.com/HaokunChen245/AUVIC</p></details> |
-| **[GraphPilot: Grounded Scene Graph Conditioning for Language-Based Autonomous Driving](https://arxiv.org/abs/2511.11266v1)** | 2025-11-14 |  |
-| **[AIonopedia: an LLM agent orchestrating multimodal learning for ionic liquid discovery](https://arxiv.org/abs/2511.11257v1)** | 2025-11-14 |  |
-| **[Multi-agent Undercover Gaming: Hallucination Removal via Counterfactual Test for Multimodal Reasoning](https://arxiv.org/abs/2511.11182v1)** | 2025-11-14 | <details><summary>Accep...</summary><p>Accepted by AAAI 2026</p></details> |
-| **[Viper-F1: Fast and Fine-Grained Multimodal Understanding with Cross-Modal State-Space Modulation](https://arxiv.org/abs/2511.11177v1)** | 2025-11-14 |  |
-| **[AffectGPT-R1: Leveraging Reinforcement Learning for Open-Vocabulary Multimodal Emotion Recognition](https://arxiv.org/abs/2508.01318v2)** | 2025-11-14 |  |
-| **[PRSM: A Measure to Evaluate CLIP's Robustness Against Paraphrases](https://arxiv.org/abs/2511.11141v1)** | 2025-11-14 | <details><summary>8 pag...</summary><p>8 pages, accpeted as short paper at MMM 2026</p></details> |
-| **[Hindsight Distillation Reasoning with Knowledge Encouragement Preference for Knowledge-based Visual Question Answering](https://arxiv.org/abs/2511.11132v1)** | 2025-11-14 |  |
-| **[Enhancing Meme Emotion Understanding with Multi-Level Modality Enhancement and Dual-Stage Modal Fusion](https://arxiv.org/abs/2511.11126v1)** | 2025-11-14 |  |
+| **[Part-X-MLLM: Part-aware 3D Multimodal Large Language Model](https://arxiv.org/abs/2511.13647v1)** | 2025-11-17 |  |
+| **[CreBench: Human-Aligned Creativity Evaluation from Idea to Process to Product](https://arxiv.org/abs/2511.13626v1)** | 2025-11-17 | <details><summary>13 pa...</summary><p>13 pages, 3 figures,The 40th Annual AAAI Conference on Artificial Intelligence(AAAI 2026),Paper has been accepted for a poster presentation</p></details> |
+| **[Viper-F1: Fast and Fine-Grained Multimodal Understanding with Cross-Modal State-Space Modulation](https://arxiv.org/abs/2511.11177v2)** | 2025-11-17 |  |
+| **[LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838v3)** | 2025-11-17 | <details><summary>Paper...</summary><p>Paper accepted to TMLR 2025, Project Homepage: https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents</p></details> |
+| **[Multi-Agent Multimodal Large Language Model Framework for Automated Interpretation of Fuel Efficiency Analytics in Public Transportation](https://arxiv.org/abs/2511.13476v1)** | 2025-11-17 |  |
+| **[Unlocking the Forgery Detection Potential of Vanilla MLLMs: A Novel Training-Free Pipeline](https://arxiv.org/abs/2511.13442v1)** | 2025-11-17 |  |
+| **[Attention Grounded Enhancement for Visual Document Retrieval](https://arxiv.org/abs/2511.13415v1)** | 2025-11-17 |  |
+| **[Tracing and Mitigating Hallucinations in Multimodal LLMs via Dynamic Attention Localization](https://arxiv.org/abs/2509.07864v2)** | 2025-11-17 |  |
+| **[Can Large Language Models Function as Qualified Pediatricians? A Systematic Evaluation in Real-World Clinical Contexts](https://arxiv.org/abs/2511.13381v1)** | 2025-11-17 |  |
+| **[NeuroStrike: Neuron-Level Attacks on Aligned LLMs](https://arxiv.org/abs/2509.11864v2)** | 2025-11-17 |  |
+| **[ZeroDexGrasp: Zero-Shot Task-Oriented Dexterous Grasp Synthesis with Prompt-Based Multi-Stage Semantic Reasoning](https://arxiv.org/abs/2511.13327v1)** | 2025-11-17 |  |
+| **[TacEleven: generative tactic discovery for football open play](https://arxiv.org/abs/2511.13326v1)** | 2025-11-17 |  |
+| **[TabFlash: Efficient Table Understanding with Progressive Question Conditioning and Token Focusing](https://arxiv.org/abs/2511.13283v1)** | 2025-11-17 | <details><summary>AAAI ...</summary><p>AAAI 2026 (Main Technical Track)</p></details> |
+| **[Reinforcing Trustworthiness in Multimodal Emotional Support Systems](https://arxiv.org/abs/2511.10011v2)** | 2025-11-17 |  |
+| **[TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model](https://arxiv.org/abs/2507.20630v2)** | 2025-11-17 |  |
 
