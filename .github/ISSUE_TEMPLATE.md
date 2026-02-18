@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - February 18, 2026
+title: Latest 15 Papers - February 19, 2026
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -26,6 +26,7 @@ labels: documentation
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use](https://arxiv.org/abs/2602.15329v1)** | 2026-02-17 |  |
 | **[OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence](https://arxiv.org/abs/2602.08683v2)** | 2026-02-15 |  |
 | **[Dual-Signal Adaptive KV-Cache Optimization for Long-Form Video Understanding in Vision-Language Models](https://arxiv.org/abs/2602.14236v1)** | 2026-02-15 |  |
 | **[A generalizable foundation model for intraoperative understanding across surgical procedures](https://arxiv.org/abs/2602.13633v1)** | 2026-02-14 |  |
@@ -40,30 +41,36 @@ labels: documentation
 | **[MedScope: Incentivizing "Think with Videos" for Clinical Reasoning via Coarse-to-Fine Tool Calling](https://arxiv.org/abs/2602.13332v1)** | 2026-02-11 |  |
 | **[VideoSTF: Stress-Testing Output Repetition in Video Large Language Models](https://arxiv.org/abs/2602.10639v1)** | 2026-02-11 |  |
 | **[Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](https://arxiv.org/abs/2512.00891v2)** | 2026-02-11 | <details><summary>Code ...</summary><p>Code is avaliable at \url{https://github.com/lern-to-write/STC}</p></details> |
-| **[RoboSubtaskNet: Temporal Sub-task Segmentation for Human-to-Robot Skill Transfer in Real-World Environments](https://arxiv.org/abs/2602.10015v2)** | 2026-02-11 |  |
 
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[BPP: Long-Context Robot Imitation Learning by Focusing on Key History Frames](https://arxiv.org/abs/2602.15010v1)** | 2026-02-16 |  |
-| **[ThermEval: A Structured Benchmark for Evaluation of Vision-Language Models on Thermal Imagery](https://arxiv.org/abs/2602.14989v1)** | 2026-02-16 | <details><summary>8 Pag...</summary><p>8 Pages with 2 figures of main content. 2 pages of References. 10 pages of appendix with 6 figures</p></details> |
-| **[DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI](https://arxiv.org/abs/2602.14974v1)** | 2026-02-16 | <details><summary>Autho...</summary><p>Authors are listed in alphabetical order. Code is available at https://github.com/Dexmal/dexbotic</p></details> |
-| **[Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis](https://arxiv.org/abs/2506.11526v4)** | 2026-02-16 | <details><summary>IEEE ...</summary><p>IEEE Open Journal of Intelligent Transportation Systems</p></details> |
-| **[Efficient Test-Time Scaling for Small Vision-Language Models](https://arxiv.org/abs/2510.03574v2)** | 2026-02-16 | <details><summary>Accep...</summary><p>Accepted at ICLR 2026. Project Page: https://monurcan.github.io/efficient_test_time_scaling</p></details> |
-| **[Are foundation models for computer vision good conformal predictors?](https://arxiv.org/abs/2412.06082v3)** | 2026-02-16 |  |
-| **[MATEO: A Multimodal Benchmark for Temporal Reasoning and Planning in LVLMs](https://arxiv.org/abs/2602.14589v1)** | 2026-02-16 |  |
-| **[Top-Down Semantic Refinement for Image Captioning](https://arxiv.org/abs/2510.22391v2)** | 2026-02-16 |  |
-| **[Replanning Human-Robot Collaborative Tasks with Vision-Language Models via Semantic and Physical Dual-Correction](https://arxiv.org/abs/2602.14551v1)** | 2026-02-16 | 16 pages, 8 figures |
-| **[Error Patterns in Historical OCR: A Comparative Analysis of TrOCR and a Vision-Language Model](https://arxiv.org/abs/2602.14524v1)** | 2026-02-16 |  |
-| **[S2D: Selective Spectral Decay for Quantization-Friendly Conditioning of Neural Activations](https://arxiv.org/abs/2602.14432v1)** | 2026-02-16 |  |
-| **[Multi-Turn Adaptive Prompting Attack on Large Vision-Language Models](https://arxiv.org/abs/2602.14399v1)** | 2026-02-16 |  |
-| **[LQA: A Lightweight Quantized-Adaptive Framework for Vision-Language Models on the Edge](https://arxiv.org/abs/2602.07849v2)** | 2026-02-16 | <details><summary>15 pa...</summary><p>15 pages, 9 figures ,9 tables, preprint</p></details> |
-| **[LVLM-COUNT: Enhancing the Counting Ability of Large Vision-Language Models](https://arxiv.org/abs/2412.00686v4)** | 2026-02-16 | <details><summary>38 pa...</summary><p>38 pages, 24 Figures, 19 Tables</p></details> |
-| **[Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision](https://arxiv.org/abs/2602.14276v1)** | 2026-02-15 | 28 pages, 15 figures |
+| **[Can Multimodal LLMs Perform Time Series Anomaly Detection?](https://arxiv.org/abs/2502.17812v2)** | 2026-02-17 | <details><summary>ACM W...</summary><p>ACM Web Conference 2026 (WWW'26)</p></details> |
+| **[LeafNet: A Large-Scale Dataset and Comprehensive Benchmark for Foundational Vision-Language Understanding of Plant Diseases](https://arxiv.org/abs/2602.13662v2)** | 2026-02-17 | <details><summary>26 pa...</summary><p>26 pages, 13 figures and 8 tables</p></details> |
+| **[cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914v3)** | 2026-02-17 | ICLR 2026 (Oral) |
+| **[Concept-Enhanced Multimodal RAG: Towards Interpretable and Accurate Radiology Report Generation](https://arxiv.org/abs/2602.15650v1)** | 2026-02-17 |  |
+| **[CARE Drive A Framework for Evaluating Reason-Responsiveness of Vision Language Models in Automated Driving](https://arxiv.org/abs/2602.15645v1)** | 2026-02-17 | <details><summary>21 pa...</summary><p>21 pages, on submission to Transportation Research Part C</p></details> |
+| **[Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution](https://arxiv.org/abs/2602.15591v1)** | 2026-02-17 | <details><summary>accep...</summary><p>accepted at CAiSE 2026 main</p></details> |
+| **[VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing](https://arxiv.org/abs/2602.15549v1)** | 2026-02-17 |  |
+| **[Selective Perception for Robot: Task-Aware Attention in Multimodal VLA](https://arxiv.org/abs/2602.15543v1)** | 2026-02-17 |  |
+| **[Semantic-Guided 3D Gaussian Splatting for Transient Object Removal](https://arxiv.org/abs/2602.15516v1)** | 2026-02-17 |  |
+| **[LQA: A Lightweight Quantized-Adaptive Framework for Vision-Language Models on the Edge](https://arxiv.org/abs/2602.07849v3)** | 2026-02-17 | <details><summary>15 pa...</summary><p>15 pages, 9 figures ,9 tables, preprint</p></details> |
+| **[Annotation-Efficient Vision-Language Model Adaptation to the Polish Language Using the LLaVA Framework](https://arxiv.org/abs/2602.14073v2)** | 2026-02-17 |  |
+| **[On the Out-of-Distribution Generalization of Reasoning in Multimodal LLMs for Simple Visual Planning Tasks](https://arxiv.org/abs/2602.15460v1)** | 2026-02-17 |  |
+| **[ActionCodec: What Makes for Good Action Tokenizers](https://arxiv.org/abs/2602.15397v1)** | 2026-02-17 |  |
+| **[The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems](https://arxiv.org/abs/2602.15382v1)** | 2026-02-17 | <details><summary>Prepr...</summary><p>Preprint. Work in progress</p></details> |
+| **[GMAIL: Generative Modality Alignment for generated Image Learning](https://arxiv.org/abs/2602.15368v1)** | 2026-02-17 |  |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[ViTaB-A: Evaluating Multimodal Large Language Models on Visual Table Attribution](https://arxiv.org/abs/2602.15769v1)** | 2026-02-17 |  |
+| **[ChartEditBench: Evaluating Grounded Multi-Turn Chart Editing in Multimodal Language Models](https://arxiv.org/abs/2602.15758v1)** | 2026-02-17 | <details><summary>16 pa...</summary><p>16 pages, 13 figures including Supplementary Material</p></details> |
+| **[Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs](https://arxiv.org/abs/2601.03100v2)** | 2026-02-17 |  |
+| **[Improving MLLMs in Embodied Exploration and Question Answering with Human-Inspired Memory Modeling](https://arxiv.org/abs/2602.15513v1)** | 2026-02-17 |  |
+| **[Emergent Morphing Attack Detection in Open Multi-modal Large Language Models](https://arxiv.org/abs/2602.15461v1)** | 2026-02-17 | <details><summary>This ...</summary><p>This manuscript is currently under review at Pattern Recognition Letters</p></details> |
+| **[One Agent to Guide Them All: Empowering MLLMs for Vision-and-Language Navigation via Explicit World Representation](https://arxiv.org/abs/2602.15400v1)** | 2026-02-17 |  |
+| **[EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use](https://arxiv.org/abs/2602.15329v1)** | 2026-02-17 |  |
 | **[Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis](https://arxiv.org/abs/2506.11526v4)** | 2026-02-16 | <details><summary>IEEE ...</summary><p>IEEE Open Journal of Intelligent Transportation Systems</p></details> |
 | **[Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2602.11858v2)** | 2026-02-16 |  |
 | **[Diagnosing Knowledge Conflict in Multimodal Long-Chain Reasoning](https://arxiv.org/abs/2602.14518v1)** | 2026-02-16 |  |
@@ -72,11 +79,4 @@ labels: documentation
 | **[V2V-GoT: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models and Graph-of-Thoughts](https://arxiv.org/abs/2509.18053v4)** | 2026-02-16 | <details><summary>Accep...</summary><p>Accepted by ICRA 2026 (IEEE International Conference on Robotics and Automation). Project: https://eddyhkchiu.github.io/v2vgot.github.io/ Code: https://github.com/eddyhkchiu/V2V-GoT Dataset: https://huggingface.co/datasets/eddyhkchiu/V2V-GoT-QA</p></details> |
 | **[GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery](https://arxiv.org/abs/2602.14201v1)** | 2026-02-15 |  |
 | **[Exploring a Multimodal Chatbot as a Facilitator in Therapeutic Art Activity](https://arxiv.org/abs/2602.14183v1)** | 2026-02-15 |  |
-| **[UniWeTok: An Unified Binary Tokenizer with Codebook Size $\mathit{2^{128}}$ for Unified Multimodal Large Language Model](https://arxiv.org/abs/2602.14178v1)** | 2026-02-15 | <details><summary>29 pa...</summary><p>29 pages, 9 figures, 33 tables</p></details> |
-| **[Investigation for Relative Voice Impression Estimation](https://arxiv.org/abs/2602.14172v1)** | 2026-02-15 | <details><summary>5 pag...</summary><p>5 pages,3 figures, Accepted to Speech Prosody 2026</p></details> |
-| **[DenseMLLM: Standard Multimodal LLMs are Intrinsic Dense Predictors](https://arxiv.org/abs/2602.14134v1)** | 2026-02-15 | 25 pages, 9 figures |
-| **[EgoSound: Benchmarking Sound Understanding in Egocentric Videos](https://arxiv.org/abs/2602.14122v1)** | 2026-02-15 | 17 pages |
-| **[ForgeryVCR: Visual-Centric Reasoning via Efficient Forensic Tools in MLLMs for Image Forgery Detection and Localization](https://arxiv.org/abs/2602.14098v1)** | 2026-02-15 |  |
-| **[S2SServiceBench: A Multimodal Benchmark for Last-Mile S2S Climate Services](https://arxiv.org/abs/2602.14017v1)** | 2026-02-15 | <details><summary>18 pa...</summary><p>18 pages, 3 figures, 6 tables</p></details> |
-| **[Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings](https://arxiv.org/abs/2602.13823v1)** | 2026-02-14 | <details><summary>The p...</summary><p>The project page is [this URL](https://github.com/ZoengHN/Embed-RL)</p></details> |
 
