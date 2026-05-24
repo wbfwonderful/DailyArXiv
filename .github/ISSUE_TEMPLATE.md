@@ -1,5 +1,5 @@
 ---
-title: Latest 15 Papers - May 21, 2026
+title: Latest 15 Papers - May 25, 2026
 labels: documentation
 ---
 **Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**
@@ -7,6 +7,7 @@ labels: documentation
 ## Video Anomaly Detection
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
+| **[Bounding-Box Trajectories Matter for Video Anomaly Detection](https://arxiv.org/abs/2605.21957v1)** | 2026-05-21 | 17 pages, 3 figures |
 | **[Are Multimodal LLMs Ready for Surveillance? A Reality Check on Zero-Shot Anomaly Detection in the Wild](https://arxiv.org/abs/2603.04727v2)** | 2026-05-18 |  |
 | **[COPRA: Conditional Parameter Adaptation with Reinforcement Learning for Video Anomaly Detection](https://arxiv.org/abs/2605.15325v1)** | 2026-05-14 | <details><summary>Manus...</summary><p>Manuscript currently under review for publication</p></details> |
 | **[LATERN: Test-Time Context-Aware Explainable Video Anomaly Detection](https://arxiv.org/abs/2605.15054v1)** | 2026-05-14 |  |
@@ -21,62 +22,61 @@ labels: documentation
 | **[From Frames to Events: Rethinking Evaluation in Human-Centric Video Anomaly Detection](https://arxiv.org/abs/2604.09327v1)** | 2026-04-10 |  |
 | **[ESOM: Efficiently Understanding Streaming Video Anomalies with Open-world Dynamic Definitions](https://arxiv.org/abs/2604.07772v1)** | 2026-04-09 |  |
 | **[Reasoning-Guided Grounding: Elevating Video Anomaly Detection through Multimodal Large Language Models](https://arxiv.org/abs/2605.02912v1)** | 2026-04-07 | <details><summary>under...</summary><p>under review at conference</p></details> |
-| **[QVAD: A Question-Centric Agentic Framework for Efficient and Training-Free Video Anomaly Detection](https://arxiv.org/abs/2604.03040v1)** | 2026-04-03 |  |
 
 ## Video Understanding
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding](https://arxiv.org/abs/2605.19846v1)** | 2026-05-19 | <details><summary>CVPR'...</summary><p>CVPR'26 (Workshop on Video Large Language Models)</p></details> |
+| **[Which Way Did It Move? Diagnosing and Overcoming Directional Motion Blindness in Video-LLMs](https://arxiv.org/abs/2605.22823v1)** | 2026-05-21 | <details><summary>Prepr...</summary><p>Preprint. 59 pages, including appendix. Code: https://github.com/KHU-VLL/DeltaDirect</p></details> |
+| **[Cambrian-P: Pose-Grounded Video Understanding](https://arxiv.org/abs/2605.22819v1)** | 2026-05-21 | <details><summary>Proje...</summary><p>Project Page: https://cambrian-mllm.github.io/</p></details> |
+| **[Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking](https://arxiv.org/abs/2605.22538v1)** | 2026-05-21 |  |
+| **[LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](https://arxiv.org/abs/2511.20785v3)** | 2026-05-21 | CVPR 2026 |
+| **[ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning](https://arxiv.org/abs/2605.20342v2)** | 2026-05-21 | <details><summary>Proje...</summary><p>Project Page: https://evolvinglmms-lab.github.io/ParaVT/</p></details> |
+| **[Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224v2)** | 2026-05-21 | <details><summary>27 pa...</summary><p>27 pages, 15 figures, 15 tables</p></details> |
+| **[ST-SimDiff: Balancing Spatiotemporal Similarity and Difference for Efficient Video Understanding with MLLMs](https://arxiv.org/abs/2605.22158v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted by ICLR 2026</p></details> |
+| **[Enhancing Visual Token Representations for Video Large Language Models via Training-Free Spatial-Temporal Pooling and Gridding](https://arxiv.org/abs/2605.22078v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted by ICLR 2026</p></details> |
+| **[Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding](https://arxiv.org/abs/2605.21973v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted by ICML 2026</p></details> |
+| **[EvoVid: Temporal-Centric Self-Evolution for Video Large Language Models](https://arxiv.org/abs/2605.21931v1)** | 2026-05-21 | <details><summary>Proje...</summary><p>Project page: https://huangshiqi128.github.io/EvoVid.io/</p></details> |
+| **[Seizure-Semiology-Suite (S3): A Clinically Multimodal Dataset, Benchmark, and Models for Seizure Semiology Understanding](https://arxiv.org/abs/2605.21852v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted to ICML 2026 as a Spotlight presentation</p></details> |
+| **[Flat-Pack Bench: Evaluating Spatio-Temporal Understanding in Large Vision-Language Models through Furniture Assembly](https://arxiv.org/abs/2605.21625v1)** | 2026-05-20 | CVPR 2026 |
+| **[FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding](https://arxiv.org/abs/2605.19846v2)** | 2026-05-20 | <details><summary>CVPR'...</summary><p>CVPR'26 (Workshop on Video Large Language Models). Project Page: https://joslefaure.github.io/assets/html/finebench.html</p></details> |
+| **[USV: Towards Understanding the User-generated Short-form Videos](https://arxiv.org/abs/2605.20838v1)** | 2026-05-20 |  |
 | **[EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs](https://arxiv.org/abs/2605.19559v1)** | 2026-05-19 |  |
-| **[LMM-Track4D: Eliciting 4D Dynamic Reasoning in LMMs via Trajectory-Grounded Dialogue](https://arxiv.org/abs/2605.19390v1)** | 2026-05-19 |  |
-| **[Seeing Together: Multi-Robot Cooperative Egocentric Spatial Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2605.18431v2)** | 2026-05-19 |  |
-| **[DynaTok: Temporally Adaptive and Positional Bias-Aware Token Compression for Video-LLMs](https://arxiv.org/abs/2605.19322v1)** | 2026-05-19 |  |
-| **[HAVEN: Hierarchically Aligned Multimodal Benchmark for Unified Video Understanding](https://arxiv.org/abs/2605.19223v1)** | 2026-05-19 |  |
-| **[Towards Data-Efficient Video Pre-training with Frozen Image Foundation Models](https://arxiv.org/abs/2605.19137v1)** | 2026-05-18 | <details><summary>Accep...</summary><p>Accepted to CVPR 2026 Workshops CV4Smalls</p></details> |
-| **[Are Multimodal LLMs Ready for Surveillance? A Reality Check on Zero-Shot Anomaly Detection in the Wild](https://arxiv.org/abs/2603.04727v2)** | 2026-05-18 |  |
-| **[OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding](https://arxiv.org/abs/2605.18577v1)** | 2026-05-18 | <details><summary>Proje...</summary><p>Project page: https://ruixiangzhao.github.io/OmniPro</p></details> |
-| **[Fourier Compressor: Frequency-Domain Visual Token Compression for Vision-Language Models](https://arxiv.org/abs/2508.06038v3)** | 2026-05-18 |  |
-| **[SPATIOROUTE: Dynamic Prompt Routing for Zero-Shot Spatial Reasoning](https://arxiv.org/abs/2605.18209v1)** | 2026-05-18 | <details><summary>10 pa...</summary><p>10 pages, 2 figures, 2nd Workshop on 3D-LLM/VLA, CVPR 2026</p></details> |
-| **[OmniSelect: Dynamic Modality-Aware Token Compression for Efficient Omni-modal Large Language Models](https://arxiv.org/abs/2605.18041v1)** | 2026-05-18 |  |
-| **[An Efficient Streaming Video Understanding Framework with Agentic Control](https://arxiv.org/abs/2605.17921v1)** | 2026-05-18 |  |
-| **[Sparse-to-Dense: A Free Lunch for Lossless Acceleration of Video Understanding in LLMs](https://arxiv.org/abs/2505.19155v2)** | 2026-05-18 | Accepted by ACL 2025 |
-| **[LiteFrame: Efficient Vision Encoders Unlock Frame Scaling in Video LLMs](https://arxiv.org/abs/2605.17260v1)** | 2026-05-17 | <details><summary>Proje...</summary><p>Project Page: https://jjihwan.github.io/projects/LiteFrame</p></details> |
 
 ## Vision Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models](https://arxiv.org/abs/2605.20177v1)** | 2026-05-19 | <details><summary>19 pa...</summary><p>19 pages, 9 figures; Accepted to ICML 2026; Project Page: https://ucsc-vlaa.github.io/VLM-CapCurriculum/</p></details> |
-| **[CaMo: Camera Motion Grounded Evaluation and Training for Vision-Language Models](https://arxiv.org/abs/2605.20165v1)** | 2026-05-19 | <details><summary>Code ...</summary><p>Code and model available at https://github.com/hsiangwei0903/CaMo</p></details> |
-| **[Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models](https://arxiv.org/abs/2605.20158v1)** | 2026-05-19 |  |
-| **[DeltaPrompts: Escaping the Zero-Delta Trap in Multimodal Distillation](https://arxiv.org/abs/2605.15532v2)** | 2026-05-19 |  |
-| **[SetCon: Towards Open-Ended Referring Segmentation via Set-Level Concept Prediction](https://arxiv.org/abs/2605.20110v1)** | 2026-05-19 |  |
-| **[VL-DPO: Vision-Language-Guided Finetuning for Preference-Aligned Autonomous Driving](https://arxiv.org/abs/2605.20082v1)** | 2026-05-19 | <details><summary>Publi...</summary><p>Published in International Conference on Robotics and Automation (ICRA), 2026 8 pages, 6 figures, 4 tables</p></details> |
-| **[NGL: Natural Garment Language for Training-Free Sewing Pattern Estimation](https://arxiv.org/abs/2602.20700v2)** | 2026-05-19 | 12 pages, 7 figures |
-| **[CogOmniControl: Reasoning-Driven Controllable Video Generation via Creative Intent Cognition](https://arxiv.org/abs/2605.19995v1)** | 2026-05-19 |  |
-| **[Towards Fine-Grained Robustness: Attention-Guided Test-Time Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2605.19956v1)** | 2026-05-19 | <details><summary>Accep...</summary><p>Accepted by ICML 2026, Project Page: this https, URL Code URL: this https URL</p></details> |
-| **[Breaking Modality Heterogeneity in Low-Bit Quantization for Large Vision-Language Models](https://arxiv.org/abs/2605.19929v1)** | 2026-05-19 |  |
-| **[ORCA: An Agentic Reasoning Framework for Hallucination and Adversarial Robustness in Vision-Language Models](https://arxiv.org/abs/2509.15435v3)** | 2026-05-19 | <details><summary>Accep...</summary><p>Accepted at the ACM International Conference on Cloud and Big Data Computing (ICCBDC 2026)</p></details> |
-| **[Structured Layout Priors for Robust Out-of-Distribution Visual Document Understanding](https://arxiv.org/abs/2605.19866v1)** | 2026-05-19 | <details><summary>18 pa...</summary><p>18 pages, 7 figures. Main text: 9 pages (4 figures); Appendix: 9 pages (3 figures)</p></details> |
-| **[Eyes on VLM: Benchmarking Gaze Following and Social Gaze Prediction in Vision Language Models](https://arxiv.org/abs/2605.19859v1)** | 2026-05-19 | Under review |
-| **[FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding](https://arxiv.org/abs/2605.19846v1)** | 2026-05-19 | <details><summary>CVPR'...</summary><p>CVPR'26 (Workshop on Video Large Language Models)</p></details> |
-| **[LaCoVL-FER: Landmark-Guided Contrastive Learning Network with Vision-Language Enhancement for Facial Expression Recognition](https://arxiv.org/abs/2605.19821v1)** | 2026-05-19 |  |
+| **[AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation](https://arxiv.org/abs/2605.22816v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted to CVPR 2026. Project page: https://gwxuan.github.io/AwareVLN/</p></details> |
+| **[Conceptualizing Embeddings: Sparse Disentanglement for Vision-Language Models](https://arxiv.org/abs/2605.22679v1)** | 2026-05-21 |  |
+| **[GeoWeaver: Grounding Visual Tokens with Geometric Evidence before Scene Reasoning](https://arxiv.org/abs/2605.22558v1)** | 2026-05-21 |  |
+| **[Supervised Classification Heads as Semantic Prototypes: Unlocking Vision-Language Alignment via Weight Recycling](https://arxiv.org/abs/2605.22484v1)** | 2026-05-21 |  |
+| **[What Does Vision Tool-Use Reinforcement Learning Really Learn? Disentangling Tool-Induced and Intrinsic Effects for Crop-and-Zoom](https://arxiv.org/abs/2602.01334v2)** | 2026-05-21 | <details><summary>ICML ...</summary><p>ICML 2026 camera ready. Code: https://github.com/GAIR-NLP/Med</p></details> |
+| **[RTPrune: Reading-Twice Inspired Token Pruning for Efficient DeepSeek-OCR Inference](https://arxiv.org/abs/2605.00392v3)** | 2026-05-21 | <details><summary>21 pa...</summary><p>21 pages, accepted by ICML2026</p></details> |
+| **[Towards Clinically Interpretable Ophthalmic VQA via Spatially-Grounded Lesion Evidence](https://arxiv.org/abs/2605.22414v1)** | 2026-05-21 |  |
+| **[Circle-RoPE: Cone-like Decoupled Rotary Positional Embedding for Large Vision-Language Models](https://arxiv.org/abs/2505.16416v3)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted at ICML 2026</p></details> |
+| **[Exposing Vulnerabilities in Visible-Infrared VLMs: A Unified Geometric Adversarial Framework with Cross-Task Transferability](https://arxiv.org/abs/2605.22273v1)** | 2026-05-21 |  |
+| **[MedFM-Robust: Benchmarking Robustness of Medical Foundation Models](https://arxiv.org/abs/2605.19027v2)** | 2026-05-21 | MICCAI2026 |
+| **[RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding](https://arxiv.org/abs/2605.19329v2)** | 2026-05-21 | <details><summary>10 pa...</summary><p>10 pages, 6 figures, 6 tables</p></details> |
+| **[Structural Anchor Pruning: Training-Free Multi-Vector Compression for Visual Document Retrieval](https://arxiv.org/abs/2601.20107v2)** | 2026-05-21 | <details><summary>metho...</summary><p>methodology revision and new title</p></details> |
+| **[The Expense of Seeing: Attaining Trustworthy Multimodal Reasoning Within the Monolithic Paradigm](https://arxiv.org/abs/2604.20665v2)** | 2026-05-21 | <details><summary>Addre...</summary><p>Addresses practical viability of Vlabel construction. Writing is grounded. Acknowledgement is duly added</p></details> |
+| **[Measuring Cross-Modal Synergy: A Benchmark for VLM Explainability](https://arxiv.org/abs/2605.22168v1)** | 2026-05-21 |  |
+| **[On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs](https://arxiv.org/abs/2602.12506v3)** | 2026-05-21 | ICML 2026 |
 
 ## Multimodal Large Language Model
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
-| **[HiDe: Rethinking The Zoom-IN method in High Resolution MLLMs via Hierarchical Decoupling](https://arxiv.org/abs/2510.00054v2)** | 2026-05-19 |  |
-| **[PixVerve: Advancing Native UHR Image Generation to 100MP with a Large-Scale High-Quality Dataset](https://arxiv.org/abs/2605.20147v1)** | 2026-05-19 | <details><summary>Proje...</summary><p>Project page is available at https://haojunchen663.github.io/projects/PixVerve/</p></details> |
-| **[Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation](https://arxiv.org/abs/2605.18740v2)** | 2026-05-19 | <details><summary>Proje...</summary><p>Project page: https://github.com/VisionOPD/Vision-OPD</p></details> |
-| **[A Nash Equilibrium Framework For Training-Free Multimodal Step Verification](https://arxiv.org/abs/2605.20033v1)** | 2026-05-19 | <details><summary>ICLR ...</summary><p>ICLR 2026 Workshop VerifAI-2</p></details> |
-| **[AffectVerse: Emotional World Models for Multimodal Affective Computing](https://arxiv.org/abs/2605.19950v1)** | 2026-05-19 |  |
-| **[Feature-Space Smoothing: Certified Robustness of Deep Representations](https://arxiv.org/abs/2601.16200v3)** | 2026-05-19 | Under review |
-| **[Are Tools Always Beneficial? Learning to Invoke Tools Adaptively for Dual-Mode Multimodal LLM Reasoning](https://arxiv.org/abs/2605.19852v1)** | 2026-05-19 | <details><summary>Accep...</summary><p>Accepted to ICML 2026</p></details> |
-| **[R$^3$L: Reasoning 3D Layouts from Relative Spatial Relations](https://arxiv.org/abs/2605.06758v2)** | 2026-05-19 | <details><summary>Accep...</summary><p>Accepted to ICML 2026</p></details> |
-| **[Slot-MLLM: Object-Centric Visual Tokenization for Multimodal LLM](https://arxiv.org/abs/2505.17726v3)** | 2026-05-19 |  |
-| **[Universal Skeleton Understanding via Differentiable Rendering and MLLMs](https://arxiv.org/abs/2603.18003v4)** | 2026-05-19 | 33 pages, 16 figures |
-| **[EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs](https://arxiv.org/abs/2605.19559v1)** | 2026-05-19 |  |
-| **[Towards Camera-Robust 3D Localization: Equation-Anchored Tool-Use for MLLMs](https://arxiv.org/abs/2605.19528v1)** | 2026-05-19 |  |
-| **[ECG-R1: Protocol-Guided and Modality-Agnostic MLLM for Reliable ECG Interpretation](https://arxiv.org/abs/2602.04279v2)** | 2026-05-19 | <details><summary>Accep...</summary><p>Accepted to ICML 2026</p></details> |
-| **[Seeing Together: Multi-Robot Cooperative Egocentric Spatial Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2605.18431v2)** | 2026-05-19 |  |
-| **[How does longer temporal context enhance multimodal narrative video processing in the brain?](https://arxiv.org/abs/2602.07570v2)** | 2026-05-19 | 22 pages, 15 figures |
+| **[AtelierEval: Agentic Evaluation of Humans & LLMs as Text-to-Image Prompters](https://arxiv.org/abs/2605.22645v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted by ICML 2026</p></details> |
+| **[VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis](https://arxiv.org/abs/2605.22570v1)** | 2026-05-21 | <details><summary>82 pa...</summary><p>82 pages, 91 figures (7 in main paper, 84 in appendix). Project page: https://zinosii.github.io/VGenST-Bench/</p></details> |
+| **[FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning](https://arxiv.org/abs/2605.22552v1)** | 2026-05-21 |  |
+| **[SpaceDG: Benchmarking Spatial Intelligence under Visual Degradation](https://arxiv.org/abs/2605.22536v1)** | 2026-05-21 |  |
+| **[AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images](https://arxiv.org/abs/2604.28177v2)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted to ACL 2026 Main Conference</p></details> |
+| **[From Recognition to Reasoning: Benchmarking and Enhancing MLLMs on Real-World Receipt Document Understanding](https://arxiv.org/abs/2605.22413v1)** | 2026-05-21 |  |
+| **[AgroTools: A Benchmark for Tool-Augmented Multimodal Agents in Agriculture](https://arxiv.org/abs/2605.22366v1)** | 2026-05-21 |  |
+| **[Bernini: Latent Semantic Planning for Video Diffusion](https://arxiv.org/abs/2605.22344v1)** | 2026-05-21 | <details><summary>Proje...</summary><p>Project Page: https://bernini-ai.github.io/</p></details> |
+| **[Model-Dowser: Data-Free Importance Probing to Mitigate Catastrophic Forgetting in Multimodal Large Language Models](https://arxiv.org/abs/2602.04509v6)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted at ICML 2026</p></details> |
+| **[Universal Skeleton Understanding via Differentiable Rendering and MLLMs](https://arxiv.org/abs/2603.18003v5)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted by ICML 2026</p></details> |
+| **[CatalyticMLLM: A Graph-Text Multimodal Large Language Model for Catalytic Materials](https://arxiv.org/abs/2605.17254v2)** | 2026-05-21 | 30 page |
+| **[EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning](https://arxiv.org/abs/2605.22208v1)** | 2026-05-21 |  |
+| **[Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224v2)** | 2026-05-21 | <details><summary>27 pa...</summary><p>27 pages, 15 figures, 15 tables</p></details> |
+| **[Enhancing Multimodal Large Language Models for Safety-Critical Driving Video Analysis](https://arxiv.org/abs/2605.22185v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted at the 2026 IEEE International Conference on Intelligent Transportation Systems (ITSC 2026)</p></details> |
+| **[ST-SimDiff: Balancing Spatiotemporal Similarity and Difference for Efficient Video Understanding with MLLMs](https://arxiv.org/abs/2605.22158v1)** | 2026-05-21 | <details><summary>Accep...</summary><p>Accepted by ICLR 2026</p></details> |
 
