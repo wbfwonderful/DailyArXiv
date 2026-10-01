@@ -3,7 +3,7 @@ import time
 import pytz
 import shutil
 import datetime
-from typing import List, Dict
+from typing import List, Dict, Union
 import urllib, urllib.request
 
 import feedparser
@@ -13,12 +13,36 @@ from easydict import EasyDict
 def remove_duplicated_spaces(text: str) -> str:
     return " ".join(text.split())
 
-def request_paper_with_arXiv_api(keyword: str, max_results: int, link: str = "OR") -> List[Dict[str, str]]:
-    # keyword = keyword.replace(" ", "+")
-    assert link in ["OR", "AND"], "link should be 'OR' or 'AND'"
-    keyword = "\"" + keyword + "\""
-    url = "http://export.arxiv.org/api/query?search_query=ti:{0}+{2}+abs:{0}&max_results={1}&sortBy=lastUpdatedDate".format(keyword, max_results, link)
-    url = urllib.parse.quote(url, safe="%/:=&?~#+!$,;'@()*[]")
+def build_arxiv_query(keyword: Union[str, List[str]], link: str = "OR") -> str:
+    """Match any keyword phrase in the title or abstract of a paper."""
+    if link not in ["OR", "AND"]:
+        raise ValueError("link should be 'OR' or 'AND'")
+    keywords = [keyword] if isinstance(keyword, str) else keyword
+    clauses = []
+    seen = set()
+    for term in keywords:
+        term = remove_duplicated_spaces(term)
+        if not term:
+            raise ValueError("Search keywords must not be empty")
+        if '"' in term:
+            raise ValueError("Search keywords must not contain double quotes")
+        if term.casefold() in seen:
+            continue
+        seen.add(term.casefold())
+        clauses.append('(ti:"{0}" {1} abs:"{0}")'.format(term, link))
+    if not clauses:
+        raise ValueError("At least one search keyword is required")
+    return " OR ".join(clauses)
+
+def request_paper_with_arXiv_api(keyword: Union[str, List[str]], max_results: int, link: str = "OR") -> List[Dict[str, str]]:
+    query = build_arxiv_query(keyword, link)
+    params = urllib.parse.urlencode({
+        "search_query": query,
+        "max_results": max_results,
+        "sortBy": "lastUpdatedDate",
+        "sortOrder": "descending",
+    })
+    url = "http://export.arxiv.org/api/query?" + params
     response = urllib.request.urlopen(url).read().decode('utf-8')
     feed = feedparser.parse(response)
 
@@ -40,8 +64,8 @@ def request_paper_with_arXiv_api(keyword: str, max_results: int, link: str = "OR
         paper.Tags = [remove_duplicated_spaces(_["term"].replace("\n", " ")) for _ in entry.tags]
         # comment
         paper.Comment = remove_duplicated_spaces(entry.get("arxiv_comment", "").replace("\n", " "))
-        # date
-        paper.Date = entry.updated
+        # date: first submission to arXiv, independent of later revisions
+        paper.Date = entry.published
 
         papers.append(paper)
     return papers
@@ -57,7 +81,7 @@ def filter_tags(papers: List[Dict[str, str]], target_fileds: List[str]=["cs", "s
                 break
     return results
 
-def get_daily_papers_by_keyword_with_retries(keyword: str, column_names: List[str], max_result: int, link: str = "OR", retries: int = 6) -> List[Dict[str, str]]:
+def get_daily_papers_by_keyword_with_retries(keyword: Union[str, List[str]], column_names: List[str], max_result: int, link: str = "OR", retries: int = 6) -> List[Dict[str, str]]:
     for _ in range(retries):
         papers = get_daily_papers_by_keyword(keyword, column_names, max_result, link)
         if len(papers) > 0: return papers
@@ -67,7 +91,7 @@ def get_daily_papers_by_keyword_with_retries(keyword: str, column_names: List[st
     # failed
     return None
 
-def get_daily_papers_by_keyword(keyword: str, column_names: List[str], max_result: int, link: str = "OR") -> List[Dict[str, str]]:
+def get_daily_papers_by_keyword(keyword: Union[str, List[str]], column_names: List[str], max_result: int, link: str = "OR") -> List[Dict[str, str]]:
     # get papers
     papers = request_paper_with_arXiv_api(keyword, max_result, link) # NOTE default columns: Title, Authors, Abstract, Link, Tags, Comment, Date
     # NOTE filtering tags: only keep the papers in cs field

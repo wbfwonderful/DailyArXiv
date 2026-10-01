@@ -22,10 +22,23 @@ with open("README.md", "r") as f:
     # if last_update_date == current_date:
         # sys.exit("Already updated today!")
 
-keywords = ["Video Anomaly Detection", "Video Understanding", "Vision Language Model", "Multimodal Large Language Model"] # TODO add more keywords
+topics = [
+    {
+        "name": "Video Anomaly Detection", 
+        "variants": ["Video Anom", "Video Abnormal"]
+    },
+    {
+        "name": "Video Understanding", 
+        "variants": ["Video Reason"]
+    },
+    {
+        "name": "Multimodal Large Language Model",
+        "variants": ["MLLM", "Multimodal LLM"],
+    },
+]
 
-max_result = 20 # maximum query results from arXiv API for each keyword
-issues_result = 15 # maximum papers to be included in the issue
+max_result = 25 # maximum query results from arXiv API for each topic
+issues_result = 25 # maximum papers to be included in the issue
 
 # all columns: Title, Authors, Abstract, Link, Tags, Comment, Date
 # fixed_columns = ["Title", "Link", "Date"]
@@ -37,7 +50,7 @@ back_up_files() # back up README.md and ISSUE_TEMPLATE.md
 # write to README.md
 f_rm = open("README.md", "w") # file for README.md
 f_rm.write("# Daily Papers\n")
-f_rm.write("The project automatically fetches the latest papers from arXiv based on keywords.\n\nThe subheadings in the README file represent the search keywords.\n\nOnly the most recent articles for each keyword are retained, up to a maximum of 100 papers.\n\nYou can click the 'Watch' button to receive daily email notifications.\n\nLast update: {0}\n\n".format(current_date))
+f_rm.write("The project automatically fetches the latest papers from arXiv based on topics and their keyword variants.\n\nThe subheadings represent topics. Each topic searches its name and variants in paper titles or abstracts. See [CONFIGURATION.md](CONFIGURATION.md) for configuration.\n\nPapers are sorted by last update time, with up to {0} query results per topic before subject filtering. The Date column shows the first submission date.\n\nYou can click the 'Watch' button to receive daily email notifications.\n\nLast update: {1}\n\n".format(max_result, current_date))
 
 # write to ISSUE_TEMPLATE.md
 f_is = open(".github/ISSUE_TEMPLATE.md", "w") # file for ISSUE_TEMPLATE.md
@@ -47,12 +60,11 @@ f_is.write("labels: documentation\n")
 f_is.write("---\n")
 f_is.write("**Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**\n\n")
 
-for keyword in keywords:
-    f_rm.write("## {0}\n".format(keyword))
-    f_is.write("## {0}\n".format(keyword))
-    if len(keyword.split()) == 1: link = "AND" # for keyword with only one word, We search for papers containing this keyword in both the title and abstract.
-    else: link = "OR"
-    papers = get_daily_papers_by_keyword_with_retries(keyword, column_names, max_result, link)
+for topic in topics:
+    f_rm.write("## {0}\n".format(topic["name"]))
+    f_is.write("## {0}\n".format(topic["name"]))
+    keywords = [topic["name"]] + topic.get("variants", [])
+    papers = get_daily_papers_by_keyword_with_retries(keywords, column_names, max_result)
     if papers is None: # failed to get papers
         print("Failed to get papers!")
         f_rm.close()
