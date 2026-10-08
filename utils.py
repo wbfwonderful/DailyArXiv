@@ -46,7 +46,7 @@ def request_paper_with_arXiv_api(keyword: Union[str, List[str]], max_results: in
     response = urllib.request.urlopen(url).read().decode('utf-8')
     feed = feedparser.parse(response)
 
-    # NOTE default columns: Title, Authors, Abstract, Link, Tags, Comment, Date
+    # NOTE default columns: Title, Authors, Abstract, Link, Tags, Comment, Submitted, Updated
     papers = []
     for entry in feed.entries:
         entry = EasyDict(entry)
@@ -64,8 +64,9 @@ def request_paper_with_arXiv_api(keyword: Union[str, List[str]], max_results: in
         paper.Tags = [remove_duplicated_spaces(_["term"].replace("\n", " ")) for _ in entry.tags]
         # comment
         paper.Comment = remove_duplicated_spaces(entry.get("arxiv_comment", "").replace("\n", " "))
-        # date: first submission to arXiv, independent of later revisions
-        paper.Date = entry.published
+        # First submission and latest revision dates from arXiv.
+        paper.Submitted = entry.published
+        paper.Updated = entry.updated
 
         papers.append(paper)
     return papers
@@ -93,7 +94,7 @@ def get_daily_papers_by_keyword_with_retries(keyword: Union[str, List[str]], col
 
 def get_daily_papers_by_keyword(keyword: Union[str, List[str]], column_names: List[str], max_result: int, link: str = "OR") -> List[Dict[str, str]]:
     # get papers
-    papers = request_paper_with_arXiv_api(keyword, max_result, link) # NOTE default columns: Title, Authors, Abstract, Link, Tags, Comment, Date
+    papers = request_paper_with_arXiv_api(keyword, max_result, link)
     # NOTE filtering tags: only keep the papers in cs field
     # TODO filtering more
     papers = filter_tags(papers)
@@ -109,12 +110,13 @@ def generate_table(papers: List[Dict[str, str]], ignore_keys: List[str] = []) ->
         formatted_paper = EasyDict()
         ## Title and Link
         formatted_paper.Title = "**" + "[{0}]({1})".format(paper["Title"], paper["Link"]) + "**"
-        ## Process Date (format: 2021-08-01T00:00:00Z -> 2021-08-01)
-        formatted_paper.Date = paper["Date"].split("T")[0]
+        ## Display arXiv dates as YYYY-MM-DD without changing the query order.
+        formatted_paper["First Submitted"] = paper["Submitted"].split("T")[0]
+        formatted_paper["Last Updated"] = paper["Updated"].split("T")[0]
         
         # process other columns
         for key in keys:
-            if key in ["Title", "Link", "Date"] or key in ignore_keys:
+            if key in ["Title", "Link", "Submitted", "Updated"] or key in ignore_keys:
                 continue
             elif key == "Abstract":
                 # add show/hide button for abstract

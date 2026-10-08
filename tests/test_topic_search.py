@@ -55,12 +55,12 @@ class TopicSearchTests(unittest.TestCase):
             with self.subTest(keywords=keywords), self.assertRaises(ValueError):
                 utils.build_arxiv_query(keywords)
 
-    def test_one_encoded_request_per_topic_and_first_submission_date(self):
+    def test_one_encoded_request_per_topic_and_both_dates(self):
         keywords = ["Multimodal Large Language Model", "MLLM", "Multimodal LLM"]
         with patch.object(utils.urllib.request, "urlopen",
                           return_value=Mock(read=Mock(return_value=FEED))) as request:
             papers = utils.get_daily_papers_by_keyword(
-                keywords, ["Title", "Link", "Date"], 20)
+                keywords, ["Title", "Link", "Submitted", "Updated"], 20)
         request.assert_called_once()
         params = parse_qs(urlparse(request.call_args.args[0]).query)
         self.assertEqual(params["search_query"], [utils.build_arxiv_query(keywords)])
@@ -68,7 +68,8 @@ class TopicSearchTests(unittest.TestCase):
         self.assertEqual(params["sortBy"], ["lastUpdatedDate"])
         self.assertEqual(params["sortOrder"], ["descending"])
         self.assertEqual(len(papers), 1)  # The physics-only paper is filtered out.
-        self.assertEqual(papers[0]["Date"], "2025-01-02T12:00:00Z")
+        self.assertEqual(papers[0]["Submitted"], "2025-01-02T12:00:00Z")
+        self.assertEqual(papers[0]["Updated"], "2026-09-29T12:00:00Z")
 
     def test_main_generates_one_section_per_topic(self):
         main_path = Path(__file__).resolve().parents[1] / "main.py"
@@ -82,17 +83,20 @@ class TopicSearchTests(unittest.TestCase):
                 with patch.object(utils.urllib.request, "urlopen",
                                   return_value=Mock(read=Mock(return_value=FEED))) as request, \
                         patch.object(utils.time, "sleep"):
-                    runpy.run_path(str(main_path), run_name="__main__")
-                self.assertEqual(request.call_count, 4)
+                    config = runpy.run_path(str(main_path), run_name="__main__")
+                topic_count = len(config["topics"])
+                self.assertEqual(request.call_count, topic_count)
                 for name in ("README.md", ".github/ISSUE_TEMPLATE.md"):
                     content = Path(name).read_text()
                     self.assertEqual(content.count("## Multimodal Large Language Model\n"), 1)
                     self.assertNotIn("## MLLM\n", content)
-                    self.assertEqual(content.count("Multimodal LLM study"), 4)
-                    self.assertIn("2025-01-02", content)
+                    self.assertEqual(content.count("Multimodal LLM study"), topic_count)
+                    self.assertIn("| 2025-01-02 | 2026-09-29 |", content)
+                    self.assertIn("| **Title** | **First Submitted** | **Last Updated** | **Comment** |", content)
+                    self.assertNotIn("**Date**", content)
+                    self.assertNotIn("**Abstract**", content)
+                    self.assertNotIn("A study of MLLM systems.", content)
                     self.assertNotIn("Physics study", content)
-                self.assertIn("**Abstract**", Path("README.md").read_text())
-                self.assertNotIn("**Abstract**", Path(".github/ISSUE_TEMPLATE.md").read_text())
                 self.assertFalse(Path("README.md.bk").exists())
                 self.assertFalse(Path(".github/ISSUE_TEMPLATE.md.bk").exists())
                 params = parse_qs(urlparse(request.call_args.args[0]).query)

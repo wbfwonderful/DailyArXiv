@@ -40,17 +40,16 @@ topics = [
 max_result = 25 # maximum query results from arXiv API for each topic
 issues_result = 25 # maximum papers to be included in the issue
 
-# all columns: Title, Authors, Abstract, Link, Tags, Comment, Date
-# fixed_columns = ["Title", "Link", "Date"]
+# all columns: Title, Authors, Abstract, Link, Tags, Comment, Submitted, Updated
 
-column_names = ["Title", "Link", "Abstract", "Date", "Comment"]
+column_names = ["Title", "Link", "Submitted", "Updated", "Comment"]
 
 back_up_files() # back up README.md and ISSUE_TEMPLATE.md
 
 # write to README.md
 f_rm = open("README.md", "w") # file for README.md
 f_rm.write("# Daily Papers\n")
-f_rm.write("The project automatically fetches the latest papers from arXiv based on topics and their keyword variants.\n\nThe subheadings represent topics. Each topic searches its name and variants in paper titles or abstracts. See [CONFIGURATION.md](CONFIGURATION.md) for configuration.\n\nPapers are sorted by last update time, with up to {0} query results per topic before subject filtering. The Date column shows the first submission date.\n\nYou can click the 'Watch' button to receive daily email notifications.\n\nLast update: {1}\n\n".format(max_result, current_date))
+f_rm.write("The project automatically fetches the latest papers from arXiv based on topics and their keyword variants.\n\nThe subheadings represent topics. Each topic searches its name and variants in paper titles or abstracts. See [CONFIGURATION.md](CONFIGURATION.md) for configuration.\n\nPapers are sorted by last update time, with up to {0} query results per topic before subject filtering. First Submitted shows the first submission date; Last Updated shows the latest revision date.\n\nYou can click the 'Watch' button to receive daily email notifications.\n\nLast update: {1}\n\n".format(max_result, current_date))
 
 # write to ISSUE_TEMPLATE.md
 f_is = open(".github/ISSUE_TEMPLATE.md", "w") # file for ISSUE_TEMPLATE.md
@@ -72,7 +71,7 @@ for topic in topics:
         restore_files()
         sys.exit("Failed to get papers!")
     rm_table = generate_table(papers)
-    is_table = generate_table(papers[:issues_result], ignore_keys=["Abstract"])
+    is_table = generate_table(papers[:issues_result])
     f_rm.write(rm_table)
     f_rm.write("\n\n")
     f_is.write(is_table)
