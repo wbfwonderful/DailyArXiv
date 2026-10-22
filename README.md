@@ -7,11 +7,12 @@ Papers are sorted by last update time, with up to 25 query results per topic bef
 
 You can click the 'Watch' button to receive daily email notifications.
 
-Last update: 2026-10-22
+Last update: 2026-10-23
 
 ## Video Anomaly Detection
 | **Title** | **First Submitted** | **Last Updated** | **Comment** |
 | --- | --- | --- | --- |
+| **[MS2CAST: A Video Anomaly Detection Framework via Multi-Scale Spatial Cross-Attention and Efficient Spatiotemporal Networks](https://arxiv.org/abs/2610.29649v1)** | 2026-10-21 | 2026-10-21 |  |
 | **[YUTELA: A Scalable Edge Cloud AIoT System for Multi-Site Video Anomaly Detection with Scene Specific Adaptation](https://arxiv.org/abs/2610.26468v1)** | 2026-10-19 | 2026-10-19 |  |
 | **[Auditing Observation-Quality Shortcuts in the Evaluation of Person-Centered Motion for Video Anomaly Detection](https://arxiv.org/abs/2610.16471v1)** | 2026-10-12 | 2026-10-12 | 9 pages, 2 figures |
 | **[Anomaly-Guided Observation and Two-Level Semantic Feedback for Training-Free Video Anomaly Analysis](https://arxiv.org/abs/2610.16324v1)** | 2026-10-12 | 2026-10-12 |  |
@@ -36,11 +37,16 @@ Last update: 2026-10-22
 | **[Parser-Free VLM Verification for Federated Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2609.07455v1)** | 2026-09-07 | 2026-09-07 | <details><summary>6 pag...</summary><p>6 pages, 1 figure, AVSS 2026</p></details> |
 | **[NOVA: Normal-Side Modeling for Training-Free Zero-Shot Video Anomaly Detection](https://arxiv.org/abs/2609.06360v1)** | 2026-09-06 | 2026-09-06 |  |
 | **[Adaptive Multi-Granularity Temporal Modeling for Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2609.05066v1)** | 2026-09-04 | 2026-09-04 | <details><summary>Accep...</summary><p>Accepted by PRCV 2026</p></details> |
-| **[Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring](https://arxiv.org/abs/2608.31074v1)** | 2026-08-31 | 2026-08-31 | <details><summary>5 pag...</summary><p>5 pages, 2 figures, 3 tables. Presented at the 9th IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR 2026); accepted for publication in IEEE Xplore</p></details> |
 
 ## Video Understanding
 | **Title** | **First Submitted** | **Last Updated** | **Comment** |
 | --- | --- | --- | --- |
+| **[Omnilingual-MsASR: Benchmarking Multimodal, Multilingual, Long-Form Multi-Speaker ASR of Omni Large Language Models](https://arxiv.org/abs/2610.29455v1)** | 2026-10-21 | 2026-10-21 |  |
+| **[Learning to Reason with Compressed Context: Ground-Truth-Free Adaptation of OmniLLMs via Self-Distillation](https://arxiv.org/abs/2609.39953v2)** | 2026-09-30 | 2026-10-21 | <details><summary>31 pa...</summary><p>31 pages, 5 figures. Project page: https://github.com/Bamboos2003/CAFD</p></details> |
+| **[OACap: Caption-Guided Active Observation for Detailed Video Captioning](https://arxiv.org/abs/2610.29327v1)** | 2026-10-21 | 2026-10-21 | <details><summary>14 pa...</summary><p>14 pages, 4 figures, 4 tables. Technical report</p></details> |
+| **[Cache Locally, Recompute Selectively for Streaming Video Understanding](https://arxiv.org/abs/2610.29229v1)** | 2026-10-21 | 2026-10-21 |  |
+| **[Agentic Video Understanding: A Survey](https://arxiv.org/abs/2609.31713v2)** | 2026-09-21 | 2026-10-21 | <details><summary>15 pa...</summary><p>15 pages,3 figures, Accepted to DICTA 2026; Revised Fig. 2 to correct taxonomy inconsistencies</p></details> |
+| **[Complexity-Aware Surgical Video Reasoning Segmentation with Digital Twin and Context Memory](https://arxiv.org/abs/2610.28776v1)** | 2026-10-20 | 2026-10-20 |  |
 | **[DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams](https://arxiv.org/abs/2610.28405v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Prepr...</summary><p>Preprint. 19 pages, 4 figures</p></details> |
 | **[PACE: Plan, Attend, Check, and Emit for Training-Free Response Timing in Streaming Video Understanding](https://arxiv.org/abs/2610.28323v1)** | 2026-10-20 | 2026-10-20 | Accepted at MMM 2027 |
 | **[A Principled Optimal Transport Framework for Frame Selection in Long Video Understanding](https://arxiv.org/abs/2610.27692v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026</p></details> |
@@ -60,39 +66,33 @@ Last update: 2026-10-22
 | **[MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging](https://arxiv.org/abs/2609.08273v2)** | 2026-09-08 | 2026-10-17 | NeurIPS26 |
 | **[Memory Internalization via Test-Time Training for Long-Video Understanding](https://arxiv.org/abs/2610.26910v1)** | 2026-10-17 | 2026-10-17 |  |
 | **[SPARE: Shared Perception and Adaptive Retrieval of Evidence for Streaming Video Understanding](https://arxiv.org/abs/2610.14671v2)** | 2026-10-10 | 2026-10-16 |  |
-| **[VideoHarness-SRSI: Structured Recursive Self-Improvement for Video Understanding Harness](https://arxiv.org/abs/2610.19424v2)** | 2026-10-14 | 2026-10-16 | 50 pages, 15 figures |
-| **[LDDR: Linear-DPP Dynamic-Resolution Frame Sampling for Video MLLMs](https://arxiv.org/abs/2605.11477v2)** | 2026-05-12 | 2026-10-16 | 21 pages, 4 figures |
-| **[DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2610.22356v1)** | 2026-10-15 | 2026-10-15 | <details><summary>Proje...</summary><p>Project page: https://sumuru789.github.io/DK-VLM-website/</p></details> |
-| **[Memory as Weights: Internalizing Long-Term History for Streaming Videos](https://arxiv.org/abs/2610.22070v1)** | 2026-10-15 | 2026-10-15 |  |
-| **[MiCo: Mutual Information Coverage Optimization through Semantic Erasure Modeling for Efficient MLLM Inference](https://arxiv.org/abs/2609.34330v3)** | 2026-09-28 | 2026-10-15 | <details><summary>48 pa...</summary><p>48 pages, 28 tables, 17 figures</p></details> |
-| **[Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction](https://arxiv.org/abs/2606.05769v2)** | 2026-06-04 | 2026-10-15 | <details><summary>Accep...</summary><p>Accepted to EMNLP 2026 Main Conference. Code: https://github.com/OpenGVLab/Future-L1</p></details> |
 
 ## Multimodal Large Language Model
 | **Title** | **First Submitted** | **Last Updated** | **Comment** |
 | --- | --- | --- | --- |
+| **[TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments](https://arxiv.org/abs/2610.30043v1)** | 2026-10-21 | 2026-10-21 | <details><summary>13 pa...</summary><p>13 pages, 8 figures, 7 tables. Project page: https://xuyicheng-zju.github.io/TARSphere/ Code: https://github.com/xuyicheng-zju/TARSphere</p></details> |
+| **[Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home](https://arxiv.org/abs/2610.29913v1)** | 2026-10-21 | 2026-10-21 | <details><summary>13 pa...</summary><p>13 pages, 6 figures. Data: https://senecta.ai/research/thermal-fall-llm-data.zip</p></details> |
+| **[AT-Differ: Dataset for Audio-Text Difference Captioning](https://arxiv.org/abs/2610.29836v1)** | 2026-10-21 | 2026-10-21 | <details><summary>Submi...</summary><p>Submitted to ICASSP 2027</p></details> |
+| **[CoLVR: Enhancing Exploratory Latent Visual Reasoning via Contrastive Optimization](https://arxiv.org/abs/2605.08802v4)** | 2026-05-09 | 2026-10-21 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026. 17 pages, 10 figures, 9 tables</p></details> |
+| **[Towards Explainable Industrial Anomaly Detection via Knowledge-Guided Latent Reasoning](https://arxiv.org/abs/2602.09850v3)** | 2026-02-10 | 2026-10-21 |  |
+| **[CausGround: Causal Interaction Grounding for Adaptive Embodied Planning](https://arxiv.org/abs/2610.29702v1)** | 2026-10-21 | 2026-10-21 | <details><summary>Proje...</summary><p>Project Page: https://causground.github.io</p></details> |
+| **[CountVideoBench: A Benchmark to Evaluate Prediction Biases on the Object Counting task by Video-Language Models](https://arxiv.org/abs/2610.28356v2)** | 2026-10-20 | 2026-10-21 | <details><summary>Accep...</summary><p>Accepted at BMVC 2026. Project page: https://countvideobench.github.io</p></details> |
+| **[Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding](https://arxiv.org/abs/2610.29552v1)** | 2026-10-21 | 2026-10-21 | <details><summary>31 pa...</summary><p>31 pages, 14 figures, 16 tables</p></details> |
+| **[Melange: A Synthetic Visual Bias Benchmark for Multi-modal Large Language Models](https://arxiv.org/abs/2610.29537v1)** | 2026-10-21 | 2026-10-21 |  |
+| **[Balancing Foundation Models and Trait-Specific Learning for Forehead-Crease Recognition](https://arxiv.org/abs/2610.29495v1)** | 2026-10-21 | 2026-10-21 | <details><summary>Accep...</summary><p>Accepted at CVIP 2026</p></details> |
+| **[LLMSeg: Training-Free Text-Prompted Image Segmentation with B-Splines](https://arxiv.org/abs/2610.29409v1)** | 2026-10-21 | 2026-10-21 | preprint |
+| **[LocalAgent: Collaborative Agentic Verification for Fine-Grained Instance-Level Consistency](https://arxiv.org/abs/2610.29174v1)** | 2026-10-21 | 2026-10-21 | 22 pages, 4 figures |
+| **[Move-Then-Operate: Behavioral Phasing for Human-Like Robotic Manipulation](https://arxiv.org/abs/2604.23620v4)** | 2026-04-26 | 2026-10-21 | <details><summary>Accep...</summary><p>Accepted by ICML 2026. 15 pages, 10 figures</p></details> |
+| **[Human Cognitive Benchmarks Reveal Foundational Visual Gaps in MLLMs](https://arxiv.org/abs/2502.16435v5)** | 2025-02-23 | 2026-10-21 | <details><summary>Accep...</summary><p>Accepted to NeurIPS 2026</p></details> |
+| **[MARS: Harmonizing Multimodal Convergence via Adaptive Rank Search](https://arxiv.org/abs/2603.00720v3)** | 2026-02-28 | 2026-10-20 | <details><summary>NeurI...</summary><p>NeurIPS 2026; Project Page: this https URL: https://minkyoungcho.github.io/mars/</p></details> |
+| **[Small Average Error, Wide Individual Error: General-Purpose LLMs Estimating Energy Intake from Meal Photos in a Feeding Trial](https://arxiv.org/abs/2610.26538v2)** | 2026-10-19 | 2026-10-20 | <details><summary>20 pa...</summary><p>20 pages, 1 figure, 12 tables. v2: adds Gemini 3.8 Flash and Gemini 4 Argon under a pre-registered addendum; all tables recomputed over eight models; conclusions unchanged except that one model now meets the pre-set limits of agreement, narrowly. Code, prompts, per-meal model outputs: https://github.com/xtea/llm-intake-validation</p></details> |
 | **[InterWebCoder: Learning Interactive Webpage Generation from Executable Tests via Reinforcement Learning](https://arxiv.org/abs/2610.28610v1)** | 2026-10-20 | 2026-10-20 |  |
 | **[Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V](https://arxiv.org/abs/2610.28416v1)** | 2026-10-20 | 2026-10-20 |  |
 | **[DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams](https://arxiv.org/abs/2610.28405v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Prepr...</summary><p>Preprint. 19 pages, 4 figures</p></details> |
-| **[CountVideoBench: A Benchmark to Evaluate Prediction Biases on the Object Counting task by Video-Language Models](https://arxiv.org/abs/2610.28356v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted at BMVC 2026. Project page: https://countvideobench.github.io</p></details> |
 | **[Auto-Director: Leveraging Multi-Agent Collaboration for Autonomous Video Editing](https://arxiv.org/abs/2610.28346v1)** | 2026-10-20 | 2026-10-20 | Accepted at MMM 2027 |
 | **[ABACUS: A Benchmark for Image Editing Models to Assess Object Category and Counting Under Scene Conservation](https://arxiv.org/abs/2610.28316v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted at WACV 2027 (Evaluations & Datasets track). Code and data: https://github.com/CEA-LIST/ABACUS</p></details> |
 | **[ChartEvo: Self-Evolving Agent Harnesses for Long-Tail Chart Reasoning](https://arxiv.org/abs/2610.28282v1)** | 2026-10-20 | 2026-10-20 |  |
 | **[VGL-stGen: Learning a shared multimodal model for lung histology and spatial transcriptomics](https://arxiv.org/abs/2610.28266v1)** | 2026-10-20 | 2026-10-20 | <details><summary>46 pa...</summary><p>46 pages, 18 figures, 16 tables; appendix included</p></details> |
 | **[PI-MLLM: Psychophysics-Inspired Multimodal Large Language Model for Oddly Satisfying Video Emotion Analysis](https://arxiv.org/abs/2610.28264v1)** | 2026-10-20 | 2026-10-20 | <details><summary>12 pa...</summary><p>12 pages, 5 figures, 8 tables; includes supplementary material</p></details> |
 | **[Dynamic Cross-Modal Prompt Generation for Multimodal Continual Instruction Tuning](https://arxiv.org/abs/2605.10765v2)** | 2026-05-11 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted to NeurlPS 2026. Code is available at https://github.com/LAMDA-CL/NeurIPS2026-Drape</p></details> |
-| **[WildAIGC-Bench: Can AI Image Detectors Handle the Wild? A Benchmark of Generated and Edited Images in Online Circulation](https://arxiv.org/abs/2610.28087v1)** | 2026-10-20 | 2026-10-20 | 19 pages |
-| **[ArtSeek: Deep artwork understanding via multimodal in-context reasoning and late interaction retrieval](https://arxiv.org/abs/2507.21917v2)** | 2025-07-29 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted at WACV 2027. 28 pages (10 main + 18 supplementary)</p></details> |
-| **[MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records](https://arxiv.org/abs/2610.27911v1)** | 2026-10-20 | 2026-10-20 | <details><summary>35 pa...</summary><p>35 pages, 16 figures, including appendices. Under review</p></details> |
-| **[Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety](https://arxiv.org/abs/2606.25034v3)** | 2026-06-23 | 2026-10-20 |  |
-| **[Testing Associative Creativity in Humans and Multimodal LLMs with Difficult-to-Name Visual Stimuli](https://arxiv.org/abs/2610.27894v1)** | 2026-10-20 | 2026-10-20 | Under review |
-| **[Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum](https://arxiv.org/abs/2610.27865v1)** | 2026-10-20 | 2026-10-20 |  |
-| **[RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation](https://arxiv.org/abs/2610.27782v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Proje...</summary><p>Project page: https://spherelab.ai/RoboJudge</p></details> |
-| **[InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection](https://arxiv.org/abs/2610.25649v2)** | 2026-10-19 | 2026-10-20 |  |
-| **[A Principled Optimal Transport Framework for Frame Selection in Long Video Understanding](https://arxiv.org/abs/2610.27692v1)** | 2026-10-20 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026</p></details> |
-| **[TriGeoBench: A Multimodal Mathematical Geometry Benchmark with Figures and TikZ](https://arxiv.org/abs/2610.27626v1)** | 2026-10-20 | 2026-10-20 | <details><summary>18 pa...</summary><p>18 pages, 7 figures, 5 tables, including appendices. The first four authors contributed equally</p></details> |
-| **[HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time](https://arxiv.org/abs/2610.24452v2)** | 2026-10-17 | 2026-10-20 | <details><summary>29 pa...</summary><p>29 pages, 14 figures, 16 tables. Project page: https://jjunsss.github.io/HumanSkill-4D/</p></details> |
-| **[AnomalyJev: Towards Evaluating Image Anomaly Explanations via Claim-Level Verification](https://arxiv.org/abs/2610.27565v1)** | 2026-10-20 | 2026-10-20 |  |
-| **[NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation](https://arxiv.org/abs/2608.24212v2)** | 2026-08-25 | 2026-10-20 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026. Project page: https://neoworldproject.github.io/neoworld-pro-website/</p></details> |
-| **[TokenSwap: Benchmarking and Reducing the Modality Gap in Multimodal LLMs](https://arxiv.org/abs/2607.28640v3)** | 2026-05-20 | 2026-10-19 | <details><summary>Neuri...</summary><p>Neurips 2026 main conference paper</p></details> |
-| **[CARLAR Influence: A Structured Hallucination Risk in Multimodal Cheque Extraction and an Exploratory Compressed-Image Countermeasure](https://arxiv.org/abs/2610.27192v1)** | 2026-10-19 | 2026-10-19 | 12 pages |
 
