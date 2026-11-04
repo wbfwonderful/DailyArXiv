@@ -7,7 +7,7 @@ Papers are sorted by last update time, with up to 25 query results per topic bef
 
 You can click the 'Watch' button to receive daily email notifications.
 
-Last update: 2026-11-04
+Last update: 2026-11-05
 
 ## Video Anomaly Detection
 | **Title** | **First Submitted** | **Last Updated** | **Comment** |
@@ -41,13 +41,18 @@ Last update: 2026-11-04
 ## Video Understanding
 | **Title** | **First Submitted** | **Last Updated** | **Comment** |
 | --- | --- | --- | --- |
+| **[DramaVQA: Probing Detailed Understanding of Ultra-Long TV Dramas](https://arxiv.org/abs/2611.00769v2)** | 2026-10-31 | 2026-11-03 | <details><summary>36 pa...</summary><p>36 pages. Project page: https://github.com/xinyuehuo/DramaVQA</p></details> |
+| **[SPOD: Recovering Suppressed Temporal Evidence in Video-LLMs via Single-Pass Orthogonal Decomposition](https://arxiv.org/abs/2611.04728v1)** | 2026-11-03 | 2026-11-03 | <details><summary>10 pa...</summary><p>10 pages, 4 figures, 1 table. Accepted to ACM Multimedia 2026 (MM '26)</p></details> |
+| **[CurEvo: Curriculum-Guided Self-Evolution for Video Understanding](https://arxiv.org/abs/2604.26707v2)** | 2026-04-29 | 2026-11-03 | <details><summary>19 pa...</summary><p>19 pages, 5 figures, including supplementary material</p></details> |
+| **[Beyond Token Representations: Explicit Visual Object Grounding for Video Reasoning Segmentation](https://arxiv.org/abs/2611.04472v1)** | 2026-11-03 | 2026-11-03 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026</p></details> |
+| **[Omnilingual-MsASR: Benchmarking Multimodal, Multilingual, Long-Form Multi-Speaker ASR of Omni Large Language Models](https://arxiv.org/abs/2610.29455v2)** | 2026-10-21 | 2026-11-03 |  |
+| **[Query-Conditioned Evidential Keyframe Sampling for MLLM-Based Long-Form Video Understanding](https://arxiv.org/abs/2604.01002v2)** | 2026-04-01 | 2026-11-02 | <details><summary>Accpe...</summary><p>Accpeted by WACV 2027</p></details> |
 | **[EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646v1)** | 2026-11-02 | 2026-11-02 | <details><summary>32 pa...</summary><p>32 pages, 16 figures. Project page: https://egoaction-bench.github.io</p></details> |
 | **[Not Another Text Benchmark: Putting the "Visual" Back in Visual Question Answering for Large Video Models](https://arxiv.org/abs/2609.17112v3)** | 2026-09-15 | 2026-11-02 | <details><summary>Accep...</summary><p>Accepted to NeurIPS 2026 Evaluations & Datasets Track</p></details> |
 | **[When No Answer Is Correct: Diagnosing Absent Answer Detection for MLLMs in Video Understanding](https://arxiv.org/abs/2606.08239v2)** | 2026-06-06 | 2026-11-02 | <details><summary>Publi...</summary><p>Published as a conference paper at EMNLP 2026</p></details> |
 | **[Large Language Models for Crash Detection in Video: A Survey of Methods, Datasets, and Challenges](https://arxiv.org/abs/2507.02074v3)** | 2025-07-02 | 2026-11-01 |  |
 | **[SurgStream: A Workflow-Anchored Proactive Streaming Framework and Benchmark for Real-Time Surgical Video Understanding](https://arxiv.org/abs/2611.01982v1)** | 2026-11-01 | 2026-11-01 |  |
 | **[From Label Priors to Task Evidence: Efficient Long-Video Frame Selection via Bayesian GRPO](https://arxiv.org/abs/2610.25418v2)** | 2026-10-18 | 2026-10-31 |  |
-| **[DramaVQA: Probing Detailed Understanding of Ultra-Long TV Dramas](https://arxiv.org/abs/2611.00769v1)** | 2026-10-31 | 2026-10-31 | <details><summary>36 pa...</summary><p>36 pages. Project page: https://github.com/xinyuehuo/DramaVQA</p></details> |
 | **[Selecting or Solving? What Best-of-N Verification Delivers in Video Reasoning](https://arxiv.org/abs/2611.00507v1)** | 2026-10-31 | 2026-10-31 | <details><summary>Accep...</summary><p>Accepted at NeurIPS 2026 VLM4WRD workshop</p></details> |
 | **[LF-VideoQA: Evaluating Long-Video Understanding with Long-Form Theory-of-Mind Questions](https://arxiv.org/abs/2611.00383v1)** | 2026-10-30 | 2026-10-30 |  |
 | **[Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning](https://arxiv.org/abs/2610.42082v1)** | 2026-10-30 | 2026-10-30 |  |
@@ -61,38 +66,33 @@ Last update: 2026-11-04
 | **[Joint Latent Reasoning and Observation for Agentic Video Understanding](https://arxiv.org/abs/2610.35229v2)** | 2026-10-26 | 2026-10-28 |  |
 | **[REEL: Same Frames, Different Answers and Different Costs](https://arxiv.org/abs/2610.38158v1)** | 2026-10-28 | 2026-10-28 | <details><summary>Accep...</summary><p>Accepted at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027, Datasets and Evaluation Track</p></details> |
 | **[The Prestige: Benchmarking Cognitive Visual Reasoning using Magic Tricks](https://arxiv.org/abs/2610.38103v1)** | 2026-10-28 | 2026-10-28 | <details><summary>40th ...</summary><p>40th Conference on Neural Information Processing Systems (NeurIPS 2026). Track on Evaluations and Datasets</p></details> |
-| **[StreamVibe: Proactive Video Agents for Evolving User Intent](https://arxiv.org/abs/2610.34662v2)** | 2026-10-26 | 2026-10-27 | 43 pages |
-| **[VideoLVR: Latent Visual Reasoning over Grounded Video Evidence](https://arxiv.org/abs/2610.37613v1)** | 2026-10-27 | 2026-10-27 | 13 pages |
-| **[Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse](https://arxiv.org/abs/2610.37211v1)** | 2026-10-27 | 2026-10-27 |  |
-| **[Drop the Details, Get the Gist: Dynamic Conceptual Representation for Video Recognition](https://arxiv.org/abs/2610.36832v1)** | 2026-10-27 | 2026-10-27 | <details><summary>25 pa...</summary><p>25 pages, 5 figures, 4 tables. Accepted to the MM4SciReal Workshop at ACCV 2026</p></details> |
-| **[Confident First, Reflective Second: Reinforcement Learning of Confidence-Preserving Reflection for Video Understanding](https://arxiv.org/abs/2610.36467v1)** | 2026-10-27 | 2026-10-27 | 18 pages, 8 figures |
 
 ## Multimodal Large Language Model
 | **Title** | **First Submitted** | **Last Updated** | **Comment** |
 | --- | --- | --- | --- |
+| **[Factorized MLLM Embeddings for Composed Image Retrieval](https://arxiv.org/abs/2611.05193v1)** | 2026-11-03 | 2026-11-03 | <details><summary>Proje...</summary><p>Project page: https://cvlab-kaist.github.io/FactEmbed/, Code: https://github.com/cvlab-kaist/FactEmbed</p></details> |
+| **[What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis](https://arxiv.org/abs/2611.05181v1)** | 2026-11-03 | 2026-11-03 |  |
+| **[MM-OptBench: A Solver-Grounded Benchmark for Multimodal Optimization Modeling](https://arxiv.org/abs/2605.12154v2)** | 2026-05-12 | 2026-11-03 | <details><summary>Paper...</summary><p>Paper accepted at NeurIPS 2026. The dataset and code are available at https://github.com/ZhongLIFR/MM-OptBench</p></details> |
+| **[G$^2$TR: Generation-Guided Visual Token Reduction for Separate-Encoder Unified Multimodal Models](https://arxiv.org/abs/2605.12309v4)** | 2026-05-12 | 2026-11-03 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026; Code is at https://github.com/lijunxian111/G2TR</p></details> |
+| **[Scaling Laws for Multimodal Data Mixtures](https://arxiv.org/abs/2610.14423v2)** | 2026-10-10 | 2026-11-03 | <details><summary>Accep...</summary><p>Accepted as a spotlight in NeurIPS 2026</p></details> |
+| **[VideoMemBench: How Well Do MLLMs Remember in Video Conversations?](https://arxiv.org/abs/2610.40131v3)** | 2026-10-29 | 2026-11-03 |  |
+| **[Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling](https://arxiv.org/abs/2611.04916v1)** | 2026-11-03 | 2026-11-03 |  |
+| **[VidVec: Unlocking Video MLLM Embeddings for Video-Text Retrieval](https://arxiv.org/abs/2602.08099v2)** | 2026-02-08 | 2026-11-03 | <details><summary>NeurI...</summary><p>NeurIPS 2026. Project page: https://iyttor.github.io/VidVec/</p></details> |
+| **[TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport](https://arxiv.org/abs/2611.04878v1)** | 2026-11-03 | 2026-11-03 |  |
+| **[DramaVQA: Probing Detailed Understanding of Ultra-Long TV Dramas](https://arxiv.org/abs/2611.00769v2)** | 2026-10-31 | 2026-11-03 | <details><summary>36 pa...</summary><p>36 pages. Project page: https://github.com/xinyuehuo/DramaVQA</p></details> |
+| **[NightIQA: A Comprehensive Dataset and Benchmark for MLLM-Based Nighttime Image Quality Assessment](https://arxiv.org/abs/2611.04811v1)** | 2026-11-03 | 2026-11-03 | <details><summary>Accep...</summary><p>Accepted to WACV 2027. 25 pages including supplementary material</p></details> |
+| **[Drag as Evidence: Motion-Grounded Latent Recomposition for Drag-Based Editing](https://arxiv.org/abs/2609.36755v3)** | 2026-09-29 | 2026-11-03 |  |
+| **[AttriSwarm: Orchestrating Agent Swarms for Cross-Page Visual Attribution](https://arxiv.org/abs/2611.04504v1)** | 2026-11-03 | 2026-11-03 |  |
+| **[VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification](https://arxiv.org/abs/2604.01569v3)** | 2026-04-02 | 2026-11-03 |  |
+| **[Beyond Token Representations: Explicit Visual Object Grounding for Video Reasoning Segmentation](https://arxiv.org/abs/2611.04472v1)** | 2026-11-03 | 2026-11-03 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026</p></details> |
+| **[PGuard: A Native, Streaming, and Plug-in Guardrail for Multimodal Large Language Models](https://arxiv.org/abs/2611.02791v2)** | 2026-11-02 | 2026-11-03 |  |
+| **[Sketch-Omni: Instance-Level Sketch-Based Visual Prompting for Perception MLLMs](https://arxiv.org/abs/2611.04262v1)** | 2026-11-03 | 2026-11-03 |  |
+| **[DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution](https://arxiv.org/abs/2611.04226v1)** | 2026-11-03 | 2026-11-03 | <details><summary>15 pa...</summary><p>15 pages, 3 figures, including appendices</p></details> |
+| **[Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference](https://arxiv.org/abs/2610.39562v2)** | 2026-10-29 | 2026-11-03 | <details><summary>Withd...</summary><p>Withdrawn at the authors' request pending completion of the required corporate disclosure and publication approval process</p></details> |
+| **[ES-Merging: Biological MLLM Merging via Embedding Space Signals](https://arxiv.org/abs/2603.14405v3)** | 2026-03-15 | 2026-11-03 |  |
+| **[Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials](https://arxiv.org/abs/2611.04073v1)** | 2026-11-02 | 2026-11-02 |  |
+| **[Query-Conditioned Evidential Keyframe Sampling for MLLM-Based Long-Form Video Understanding](https://arxiv.org/abs/2604.01002v2)** | 2026-04-01 | 2026-11-02 | <details><summary>Accpe...</summary><p>Accpeted by WACV 2027</p></details> |
+| **[Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI](https://arxiv.org/abs/2611.03996v1)** | 2026-11-02 | 2026-11-02 | <details><summary>5 pag...</summary><p>5 pages, 3 figures, 4 tables. Submitted to ISBI 2027</p></details> |
+| **[From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs](https://arxiv.org/abs/2606.10147v2)** | 2026-06-08 | 2026-11-02 | <details><summary>Accep...</summary><p>Accepted by NeurIPS 2026, 54 pages, 34 figures</p></details> |
 | **[Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning](https://arxiv.org/abs/2611.03602v1)** | 2026-11-02 | 2026-11-02 |  |
-| **[Same Outputs, Different Scores: Auditing the Unchecked Graders of Multimodal LLM Benchmarks](https://arxiv.org/abs/2611.03377v1)** | 2026-11-02 | 2026-11-02 | <details><summary>Accep...</summary><p>Accepted at WACV 2027 (Evaluations and Datasets Track). Code and data: https://github.com/ahmadhasan2k8/grader-audit</p></details> |
-| **[UAV-DualCog: A Dual-Cognition Benchmark for Grounded UAV Agent-World Reasoning with MLLMs](https://arxiv.org/abs/2607.16193v2)** | 2026-07-17 | 2026-11-02 | <details><summary>8 pag...</summary><p>8 pages, 4 figures, 6 tables. Project website: https://smartdianlab.github.io/UAV-DualCog/</p></details> |
-| **[VideoMemBench: How Well Do MLLMs Remember in Video Conversations?](https://arxiv.org/abs/2610.40131v2)** | 2026-10-29 | 2026-11-02 |  |
-| **[Concept-Grounded Reasoning with Prompt-Driven Localization for Interpretable Structured Report Generation](https://arxiv.org/abs/2609.15334v2)** | 2026-09-14 | 2026-11-02 |  |
-| **[SurgPace: Complexity-Aware Progressive Distillation for Surgical Multimodal Large Language Models](https://arxiv.org/abs/2611.03125v1)** | 2026-11-02 | 2026-11-02 | <details><summary>21 pa...</summary><p>21 pages, 4 figures, Accepted by Medical Image Analysis</p></details> |
-| **[HaltNav: Reactive Visual Halting over Lightweight Topological Priors for Robust Vision-Language Navigation](https://arxiv.org/abs/2603.12696v3)** | 2026-03-13 | 2026-11-02 |  |
-| **[Q-CamTuning: A Multimodal Large Language Model for Fine-Grained Quality Reasoning in Livestreaming Camera Tuning](https://arxiv.org/abs/2611.03007v1)** | 2026-11-02 | 2026-11-02 |  |
-| **[Can You Predict the Next Mind? Toward Multi-Turn Multi-Party Mental World Modeling](https://arxiv.org/abs/2611.02988v1)** | 2026-11-02 | 2026-11-02 | 14 pages |
-| **[PhotoGuider: Composition-Aware Cropping and 360$^{\circ}$ View Framing with Explainable Photographic Assessments](https://arxiv.org/abs/2611.02897v1)** | 2026-11-02 | 2026-11-02 | <details><summary>25 pa...</summary><p>25 pages, 8 figures. Project page: https://ntuneillee.github.io/research/photoguider/</p></details> |
-| **[The Platonic brain bridge hypothesis: brain networks as architectural priors for multimodal large language models](https://arxiv.org/abs/2609.10947v3)** | 2026-09-10 | 2026-11-02 | <details><summary>42 pa...</summary><p>42 pages, 8 figures; includes 15 pages of Supplementary Information. Added author Hui Xiong; shortened title; former Extended Data moved to main-text figures and Supplementary Tables; scientific results unchanged</p></details> |
-| **[PGuard: A Native, Streaming, and Plug-in Guardrail for Multimodal Large Language Models](https://arxiv.org/abs/2611.02791v1)** | 2026-11-02 | 2026-11-02 |  |
-| **[Lookahead Prediction-Guided Adaptive Visual Refocusing for Interleaved Multimodal Reasoning](https://arxiv.org/abs/2611.02780v1)** | 2026-11-02 | 2026-11-02 |  |
-| **[AffToM: Benchmarking Recursive Affective Theory of Mind in Dynamic Multi-Party Interactions](https://arxiv.org/abs/2611.02725v1)** | 2026-11-02 | 2026-11-02 |  |
-| **[DiffCap-Bench: A Comprehensive, Challenging, Robust Benchmark for Image Difference Captioning](https://arxiv.org/abs/2605.04503v2)** | 2026-05-06 | 2026-11-02 |  |
-| **[MedHEB: Benchmarking Medical Embeddings Across Heterogeneous Clinical Evidence](https://arxiv.org/abs/2611.02519v1)** | 2026-11-02 | 2026-11-02 |  |
-| **[When No Answer Is Correct: Diagnosing Absent Answer Detection for MLLMs in Video Understanding](https://arxiv.org/abs/2606.08239v2)** | 2026-06-06 | 2026-11-02 | <details><summary>Publi...</summary><p>Published as a conference paper at EMNLP 2026</p></details> |
-| **[Lie Routing Vision Language Models for View-Robust 3D Understanding](https://arxiv.org/abs/2611.02306v1)** | 2026-11-01 | 2026-11-01 | <details><summary>NeurI...</summary><p>NeurIPS 2026 Accepted Paper</p></details> |
-| **[KathDB-FAO: Optimizing Multimodal Queries through Operator Grouping and Code Reuse](https://arxiv.org/abs/2609.28761v2)** | 2026-09-23 | 2026-11-01 | <details><summary>15 pa...</summary><p>15 pages, including supplementary material. Revised system design and evaluation, with additional experiments and results</p></details> |
-| **[Mixture of Probes: Learning from Privileged Modalities in Multimodal LLMs Through Probing](https://arxiv.org/abs/2607.08839v2)** | 2026-07-09 | 2026-11-01 | NeurIPS 2026 |
-| **[Beyond Multimodal Emotion Conflict: Temporal Context-Aware Hidden Emotion Detection with Multimodal Large Language Models](https://arxiv.org/abs/2611.01943v1)** | 2026-11-01 | 2026-11-01 | 6 pages, 4 figures |
-| **[ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding](https://arxiv.org/abs/2607.24743v3)** | 2026-07-27 | 2026-11-01 | <details><summary>Code:...</summary><p>Code: https://github.com/alibaba-damo-academy/ClinFusion Models: https://huggingface.co/collections/Alibaba-DAMO-Academy/clinfusion</p></details> |
-| **[Phase-wise MLLM Tuning for Multi-framework WebUI Code Generation](https://arxiv.org/abs/2611.01692v1)** | 2026-11-01 | 2026-11-01 | <details><summary>Accep...</summary><p>Accepted at NeurIPS 2026. 27 pages</p></details> |
-| **[A Comprehensive Review of Multimodal Large Language Models: Performance and Challenges Across Different Tasks](https://arxiv.org/abs/2408.01319v2)** | 2024-08-02 | 2026-11-01 |  |
-| **[Can Large Language Model Agents Learn by Watching Tutorial Videos?](https://arxiv.org/abs/2611.01460v1)** | 2026-11-01 | 2026-11-01 |  |
 
