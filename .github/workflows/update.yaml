@@ -7,13 +7,15 @@ on:
   schedule:
       - cron: '30 16 * * 0-4' # 00:30 Beijing time every Monday to Friday
 
+  workflow_dispatch:
+
 permissions:
   contents: write
   issues: write 
 
 jobs:
   update_daily_papers:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
@@ -41,7 +43,7 @@ jobs:
         name: Zezhishao
         email: 864453277@qq.com
 
-    - name: Create an issue to notify
-      uses: JasonEtco/create-an-issue@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Create an issue to notify
+    #   uses: JasonEtco/create-an-issue@v2
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
