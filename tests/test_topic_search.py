@@ -1,10 +1,14 @@
 import os
+import io
 from pathlib import Path
 import runpy
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
 from urllib.parse import parse_qs, urlparse
+from urllib.error import HTTPError, URLError
+from email.utils import format_datetime
+from datetime import datetime, timedelta, timezone
 
 import utils
 
@@ -62,7 +66,9 @@ class TopicSearchTests(unittest.TestCase):
             papers = utils.get_daily_papers_by_keyword(
                 keywords, ["Title", "Link", "Submitted", "Updated"], 20)
         request.assert_called_once()
-        params = parse_qs(urlparse(request.call_args.args[0]).query)
+        self.assertTrue(request.call_args.args[0].full_url.startswith("https://"))
+        self.assertEqual(request.call_args.kwargs["timeout"], 60)
+        params = parse_qs(urlparse(request.call_args.args[0].full_url).query)
         self.assertEqual(params["search_query"], [utils.build_arxiv_query(keywords)])
         self.assertEqual(params["max_results"], ["20"])
         self.assertEqual(params["sortBy"], ["lastUpdatedDate"])
@@ -99,12 +105,78 @@ class TopicSearchTests(unittest.TestCase):
                     self.assertNotIn("Physics study", content)
                 self.assertFalse(Path("README.md.bk").exists())
                 self.assertFalse(Path(".github/ISSUE_TEMPLATE.md.bk").exists())
-                params = parse_qs(urlparse(request.call_args.args[0]).query)
+                params = parse_qs(urlparse(request.call_args.args[0].full_url).query)
                 self.assertIn('(ti:"MLLM" OR abs:"MLLM")', params["search_query"][0])
                 self.assertIn('(ti:"Multimodal LLM" OR abs:"Multimodal LLM")',
                               params["search_query"][0])
             finally:
                 os.chdir(original_directory)
+
+    def test_rate_limit_respects_retry_after_then_succeeds(self):
+        error = HTTPError("https://export.arxiv.org", 429, "Too Many Requests",
+                          {"Retry-After": "300"}, io.BytesIO())
+        with patch.object(utils, "get_daily_papers_by_keyword", side_effect=[error, [{"Title": "paper"}]]), \
+                patch.object(utils.time, "sleep") as sleep:
+            self.assertEqual(utils.get_daily_papers_by_keyword_with_retries("MLLM", [], 25),
+                             [{"Title": "paper"}])
+        sleep.assert_called_once_with(300)
+
+    def test_retry_after_http_date_and_invalid_values(self):
+        future = datetime.now(timezone.utc) + timedelta(minutes=10)
+        delay = utils.retry_after_seconds(format_datetime(future, usegmt=True))
+        self.assertGreater(delay, 598)
+        self.assertLessEqual(delay, 600)
+        for value in (None, "invalid", "-10"):
+            self.assertEqual(utils.retry_after_seconds(value), 0)
+
+    def test_transient_errors_and_empty_result_back_off(self):
+        errors = [URLError("connection reset"), TimeoutError("timeout"),
+                  HTTPError("https://export.arxiv.org", 503, "Unavailable", {}, io.BytesIO()), []]
+        with patch.object(utils, "get_daily_papers_by_keyword", side_effect=errors) as query, \
+                patch.object(utils.time, "sleep") as sleep:
+            self.assertIsNone(utils.get_daily_papers_by_keyword_with_retries("MLLM", [], 25))
+        self.assertEqual(query.call_count, 4)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], [30, 60, 120])
+
+    def test_persistent_rate_limit_stops_without_final_sleep(self):
+        error = HTTPError("https://export.arxiv.org", 429, "Too Many Requests", {}, io.BytesIO())
+        with patch.object(utils, "get_daily_papers_by_keyword", side_effect=error) as query, \
+                patch.object(utils.time, "sleep") as sleep:
+            self.assertIsNone(utils.get_daily_papers_by_keyword_with_retries("MLLM", [], 25, retries=3))
+        self.assertEqual(query.call_count, 3)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], [30, 60])
+
+    def test_non_retryable_http_error_fails_immediately(self):
+        error = HTTPError("https://export.arxiv.org", 400, "Bad Request", {}, io.BytesIO())
+        with patch.object(utils, "get_daily_papers_by_keyword", side_effect=error) as query, \
+                patch.object(utils.time, "sleep") as sleep, self.assertRaises(HTTPError):
+            utils.get_daily_papers_by_keyword_with_retries("MLLM", [], 25)
+        query.assert_called_once()
+        sleep.assert_not_called()
+
+    def test_main_restores_files_after_exhaustion_or_unexpected_error(self):
+        main_path = Path(__file__).resolve().parents[1] / "main.py"
+        original_directory = Path.cwd()
+        for failure in (None, ValueError("Invalid response")):
+            with self.subTest(failure=failure), tempfile.TemporaryDirectory() as directory:
+                try:
+                    os.chdir(directory)
+                    originals = {"README.md": "Last update: 2026-01-01\n",
+                                 ".github/ISSUE_TEMPLATE.md": "Old issue\n"}
+                    Path(".github").mkdir()
+                    for name, content in originals.items():
+                        Path(name).write_text(content)
+                    paper = {"Title": "paper", "Link": "https://arxiv.org",
+                             "Submitted": "2025-01-02", "Updated": "2026-09-29", "Comment": ""}
+                    with patch.object(utils, "get_daily_papers_by_keyword_with_retries",
+                                      side_effect=[[paper], failure]), \
+                            patch.object(utils.time, "sleep"), self.assertRaises((RuntimeError, ValueError)):
+                        runpy.run_path(str(main_path), run_name="__main__")
+                    for name, content in originals.items():
+                        self.assertEqual(Path(name).read_text(), content)
+                        self.assertFalse(Path(name + ".bk").exists())
+                finally:
+                    os.chdir(original_directory)
 
 
 if __name__ == "__main__":

@@ -3,8 +3,10 @@ import time
 import pytz
 import shutil
 import datetime
+from contextlib import closing
+from email.utils import parsedate_to_datetime
 from typing import List, Dict, Union
-import urllib, urllib.request
+import urllib, urllib.request, urllib.error
 
 import feedparser
 from easydict import EasyDict
@@ -42,8 +44,12 @@ def request_paper_with_arXiv_api(keyword: Union[str, List[str]], max_results: in
         "sortBy": "lastUpdatedDate",
         "sortOrder": "descending",
     })
-    url = "http://export.arxiv.org/api/query?" + params
-    response = urllib.request.urlopen(url).read().decode('utf-8')
+    url = "https://export.arxiv.org/api/query?" + params
+    request = urllib.request.Request(url, headers={
+        "User-Agent": "DailyArXiv/1.0 (https://github.com/wbfwonderful/DailyArXiv)",
+    })
+    with closing(urllib.request.urlopen(request, timeout=60)) as response:
+        response = response.read().decode('utf-8')
     feed = feedparser.parse(response)
 
     # NOTE default columns: Title, Authors, Abstract, Link, Tags, Comment, Submitted, Updated
@@ -82,14 +88,49 @@ def filter_tags(papers: List[Dict[str, str]], target_fileds: List[str]=["cs", "s
                 break
     return results
 
-def get_daily_papers_by_keyword_with_retries(keyword: Union[str, List[str]], column_names: List[str], max_result: int, link: str = "OR", retries: int = 6) -> List[Dict[str, str]]:
-    for _ in range(retries):
-        papers = get_daily_papers_by_keyword(keyword, column_names, max_result, link)
-        if len(papers) > 0: return papers
-        else:
-            print("Unexpected empty list, retrying...")
-            time.sleep(60 * 30) # wait for 30 minutes
-    # failed
+def retry_after_seconds(value: str) -> float:
+    """Parse Retry-After as seconds or an HTTP date; ignore malformed values."""
+    if not value:
+        return 0
+    try:
+        return max(0, int(value))
+    except ValueError:
+        try:
+            retry_date = parsedate_to_datetime(value)
+            if retry_date.tzinfo is None:
+                retry_date = retry_date.replace(tzinfo=datetime.timezone.utc)
+            return max(0, (retry_date - datetime.datetime.now(datetime.timezone.utc)).total_seconds())
+        except (TypeError, ValueError, OverflowError):
+            return 0
+
+def get_daily_papers_by_keyword_with_retries(keyword: Union[str, List[str]], column_names: List[str], max_result: int, link: str = "OR", retries: int = 4) -> List[Dict[str, str]]:
+    if retries < 1:
+        raise ValueError("retries must be at least 1")
+    for attempt in range(retries):
+        server_wait = 0
+        try:
+            papers = get_daily_papers_by_keyword(keyword, column_names, max_result, link)
+            if papers:
+                return papers
+            reason = "Empty result after subject filtering"
+        except urllib.error.HTTPError as error:
+            # Configuration/client errors should fail immediately, rather than retry.
+            if error.code not in (408, 429) and not 500 <= error.code < 600:
+                raise
+            server_wait = retry_after_seconds(error.headers.get("Retry-After") if error.headers else None)
+            reason = "HTTP {0}".format(error.code)
+            error.close()
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as error:
+            reason = str(error)
+        if attempt == retries - 1:
+            print("arXiv query {0!r} failed after {1} attempts: {2}".format(keyword, retries, reason), flush=True)
+            break
+        # Back off for 30, 60, 120, ... seconds, capped at 30 minutes.
+        # A longer server Retry-After always takes precedence.
+        wait = max(min(30 * 2 ** attempt, 1800), server_wait)
+        print("arXiv query {0!r}, attempt {1}/{2}: {3}; retrying in {4:.0f}s".format(
+            keyword, attempt + 1, retries, reason, wait), flush=True)
+        time.sleep(wait)
     return None
 
 def get_daily_papers_by_keyword(keyword: Union[str, List[str]], column_names: List[str], max_result: int, link: str = "OR") -> List[Dict[str, str]]:
